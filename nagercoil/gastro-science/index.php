@@ -37,7 +37,15 @@
     })(window, document, 'script', 'dataLayer', 'GTM-NPDG225B');
   </script>
   <!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17011074142"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'AW-17011074142');
+</script>
 </head>
 
 <body>
