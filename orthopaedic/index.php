@@ -607,23 +607,101 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
         <div class="owl-carousel owl-theme dots-morphing mb-0 expart-slider">
           <div class="expart-card">
             <div class="expert-image position-relative">
+              <img src="image/Dr_Chandhan_M.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Chandhan M</h3>
+              <p>Consultant</p>
+              <h4>MBBS, DNB Orthopedics, FASSI, Fellowship in Advanced Spine Endoscopy</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_B_Madan_Mohan.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Madan Mohan B</h3>
+              <p>Consultant</p>
+              <h4>MBBS, D'Ortho, DNB Ortho</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/dummy-doctor.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Manoj Haridas</h3>
+              <p>Senior Consultant</p>
+              <h4>MBBS, MS Orthopedics, D Orthopedics, PDCC (Hand & Microvascular Surgery)</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Muhammed_Nazeer.webp" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Muhammed Nazeer</h3>
+              <p>Senior Consultant & Group Coordinator</p>
+              <h4>MBBS, MS Orthopedics, FRCS (Glasgo)</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Rajesh_V_Pillai.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Rajesh V Pillai</h3>
+              <p>Consultant</p>
+              <h4>MBBS, D.Ortho, DNB, Fellowship in Joint Replacement</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Ranjith_Unnikrishnan.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Ranjith Unnikrishnan</h3>
+              <p>Consultant</p>
+              <h4>DNB, FCPS, FMISS, Fellowship in Spine Surgery</h4>
+              <a href="#" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Rinju_Krishnan.webp" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Rinju Krishnan</h3>
+              <p>Consultant</p>
+              <h4>MBBS, MS, DNB Orthopedics</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Vinod_Krishnan_V.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Vinod Krishnan V</h3>
+              <p>Consultant</p>
+              <h4>D Orthopedics, DNB Orthopedics, MRCS</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          
+          <!-- <div class="expart-card">
+            <div class="expert-image position-relative">
               <img src="image/dr-madan-mohan.png" alt="" class="img-fluid">
             </div>
             <div class="card-content mt-3">
               <h3>Dr. B Madan Mohan</h3>
               <p>Consultant</p>
               <h4>D Orthopedics, DNB Orthopedics</h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
-            </div>
-          </div>
-          <div class="expart-card">
-            <div class="expert-image position-relative">
-              <img src="image/dr-vinod-krishnan.png" alt="" class="img-fluid">
-            </div>
-            <div class="card-content mt-3">
-              <h3>Dr. Vinod Krishnan V</h3>
-              <p>Paediatric Orthopaedics Consultant</p>
-              <h4>DNB Orthopedics, MRCS</h4>
               <a href="#" class="btn btn-primary"> Request An Appointment </a>
             </div>
           </div>
@@ -651,17 +729,6 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
           </div>
           <div class="expart-card">
             <div class="expert-image position-relative">
-              <img src="image/dr-ranjith-unnikrishnan.png" alt="" class="img-fluid">
-            </div>
-            <div class="card-content mt-3">
-              <h3>Dr. Ranjith Unnikrishnan</h3>
-              <p>Consultant </p>
-              <h4>DNB</h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
-            </div>
-          </div>
-          <div class="expart-card">
-            <div class="expert-image position-relative">
               <img src="image/dr-mohammed-nazeer.png" alt="" class="img-fluid">
             </div>
             <div class="card-content mt-3">
@@ -670,7 +737,8 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h4>MS Orthopaedics, FRCS </h4>
               <a href="#" class="btn btn-primary"> Request An Appointment </a>
             </div>
-          </div>
+          </div> -->
+
         </div>
       </div>
     </section>

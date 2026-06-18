@@ -1,3 +1,38 @@
+<?php
+session_start();
+
+// Define available operations
+$operators = ['+', '-', '*', '/'];
+$operator = $operators[array_rand($operators)];
+
+// Generate numbers based on operator
+switch ($operator) {
+    case '+':
+        $num1 = rand(1, 20);
+        $num2 = rand(1, 20);
+        $answer = $num1 + $num2;
+        break;
+    case '-':
+        $num1 = rand(10, 30);
+        $num2 = rand(1, $num1); // Ensure non-negative result
+        $answer = $num1 - $num2;
+        break;
+    case '*':
+        $num1 = rand(1, 10);
+        $num2 = rand(1, 10);
+        $answer = $num1 * $num2;
+        break;
+    case '/':
+        $num2 = rand(1, 10);
+        $answer = rand(1, 10);
+        $num1 = $num2 * $answer; // Ensure clean division
+        break;
+}
+
+// Store the answer in session
+$_SESSION['captcha_answer'] = $answer;
+$_SESSION['captcha_question'] = "$num1 $operator $num2";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -44,6 +79,12 @@
   gtag('js', new Date());
 
   gtag('config', 'AW-17011074142');
+</script>
+	
+<script>
+  gtag('config', 'AW-17011074142/1f-OCIPQqPQbEN7Iwa8_', {
+    'phone_conversion_number': '04652713197'
+  });
 </script>
 </head>
 
@@ -158,9 +199,12 @@
                   <div class="col-lg-12 form-group">
                     <textarea name="message" rows="2" class="form-control" placeholder="Message"></textarea>
                   </div>
-                  <div class="col-lg-12 form-group">
-                    <div class="g-recaptcha" data-sitekey="6LfZd-gqAAAAADrfVAT6kawPPQWdvsk_SwFOxN59"></div>
-                  </div>
+                  
+					<div class="col-lg-12 input-group mb-3">
+											
+						<label>Solve: <strong><?php echo $_SESSION['captcha_question']; ?> =</strong> </label>
+    					<input type="text" name="captcha" class="form-control" required>
+					</div>
                   <div class="col-lg-12 form-group">
                     <input type="submit" value="Submit" class="btn submit-btn">
                   </div>
@@ -626,6 +670,18 @@
               <h3>Dr. Lala Gladson Ananda Robin</h3>
               <p>Surgical Oncologist</p>
               <h4>MS (Gen Sur) , DrNB (SurOnco) , aMAS (Upper GI Sur)</h4>
+              <a href="#" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/dr_rosy_kalathil_antony2.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Rosy Kalathil Antony</h3>
+              <p>Radiation Oncologist</p>
+              <h4>DMRT (Radiotherapy), MD (Radiotherapy), DNB (Radiolotherapy)</h4>
               <a href="#" class="btn btn-primary"> Request An Appointment </a>
             </div>
           </div>

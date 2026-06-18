@@ -7,26 +7,26 @@ $operator = $operators[array_rand($operators)];
 
 // Generate numbers based on operator
 switch ($operator) {
-    case '+':
-        $num1 = rand(1, 20);
-        $num2 = rand(1, 20);
-        $answer = $num1 + $num2;
-        break;
-    case '-':
-        $num1 = rand(10, 30);
-        $num2 = rand(1, $num1); // Ensure non-negative result
-        $answer = $num1 - $num2;
-        break;
-    case '*':
-        $num1 = rand(1, 10);
-        $num2 = rand(1, 10);
-        $answer = $num1 * $num2;
-        break;
-    case '/':
-        $num2 = rand(1, 10);
-        $answer = rand(1, 10);
-        $num1 = $num2 * $answer; // Ensure clean division
-        break;
+  case '+':
+    $num1 = rand(1, 20);
+    $num2 = rand(1, 20);
+    $answer = $num1 + $num2;
+    break;
+  case '-':
+    $num1 = rand(10, 30);
+    $num2 = rand(1, $num1); // Ensure non-negative result
+    $answer = $num1 - $num2;
+    break;
+  case '*':
+    $num1 = rand(1, 10);
+    $num2 = rand(1, 10);
+    $answer = $num1 * $num2;
+    break;
+  case '/':
+    $num2 = rand(1, 10);
+    $answer = rand(1, 10);
+    $num1 = $num2 * $answer; // Ensure clean division
+    break;
 }
 
 // Store the answer in session
@@ -54,7 +54,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
   <!-- Cusome css -->
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/responsive.css">
-	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   <!-- Google Tag Manager -->
   <script>
@@ -174,7 +174,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                 <div class="second"></div>
               </div>
               <h3 class="fw-bold text-danger fs-6 text-uppercase mb-3">Book an Appointment Request</h3>
-              <form action="mailer.php" method="post" >
+              <form action="mailer.php" method="post">
                 <input type="hidden" name="speciality" value="Neurology">
                 <div class="row">
                   <div class="col-lg-12 form-group">
@@ -190,10 +190,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                     <textarea name="message" rows="2" class="form-control" placeholder="Message"></textarea>
                   </div>
                   <div class="col-lg-12 input-group mb-3">
-											
-						<label>Solve: <strong><?php echo $_SESSION['captcha_question']; ?> =</strong> </label>
-    					<input type="text" name="captcha" class="form-control" required>
-					</div>
+
+                    <label>Solve: <strong><?php echo $_SESSION['captcha_question']; ?> =</strong> </label>
+                    <input type="text" name="captcha" class="form-control" required>
+                  </div>
                   <div class="col-lg-12 form-group">
                     <input type="submit" value="Submit" class="btn submit-btn">
                   </div>
@@ -593,27 +593,105 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
         <div class="owl-carousel owl-theme dots-morphing mb-0 expart-slider">
           <div class="expart-card">
             <div class="expert-image position-relative">
-              <img src="image/dr-suresh-chandran.jpg" alt="" class="img-fluid">
+              <img src="image/Dr_Syamlal_S.webp" alt="" class="img-fluid">
             </div>
             <div class="card-content mt-3">
-              <h3>Dr. Suresh Chandran C J</h3>
-              <p>Coordinator & Senior Consultant</p>
-              <h4>MD, DM, DNB, MBBS/Internship</h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
+              <h3>Dr. Syamlal S</h3>
+              <p>Senior Consultant & Group Coordinator</p>
+              <h4>MBBS, MD, DM (Neurology), DNB (Neurology)</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
             </div>
           </div>
           <div class="expart-card">
             <div class="expert-image position-relative">
-              <img src="image/dr_syamlal.jpg" alt="" class="img-fluid">
+              <img src="image/dr_sandhya_manorenj.webp" alt="" class="img-fluid">
             </div>
             <div class="card-content mt-3">
-              <h3>Dr. Syamlal S</h3>
-              <p>Group Coordinator & Senior Consultant</p>
-              <h4>MBBS, MD, DM, DNB</h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
+              <h3>Dr. Sandhya Manorenj</h3>
+              <p>Senior Consultant & Group Coordinator</p>
+              <h4>MBBS, DNB (General Medicine), DNB (Neurology), Fellowship in Neurorehabilitation</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
             </div>
           </div>
           <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Suresh_Chandran_C_J.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Suresh Chandran C J</h3>
+              <p>Senior Consultant</p>
+              <h4>MD (Medicine), DM (Neurology), DNB (Neurology), MBBS/Internship</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Ashok_V_P.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Ashok V P</h3>
+              <p>Consultant</p>
+              <h4>MBBS, MD, DM (Neuro)</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Ajith.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Ajith M</h3>
+              <p>Consultant</p>
+              <h4>MBBS, MD (General Medicine), DNB (General Medicine), DM (Neurology), DNB (Neurology)</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Krishnasree_K_S.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Krishnasree K S</h3>
+              <p>Associate Consultant</p>
+              <h4>MBBS, DNB (General Medicine), MNAMS, DrNB (Neurology)</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Ajith_R.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Ajith R</h3>
+              <p>Senior Consultant & Coordinator</p>
+              <h4>MBBS, DrNB (Neurosurgery)</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Navas_N_S.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Navas N S</h3>
+              <p>Senior Consultant</p>
+              <h4>MBBS, NS, MS, MCh (Neurosurgery)</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Sushant_B.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Sushant B</h3>
+              <p>Senior Consultant</p>
+              <h4>MBBS, NS, MS, MCh (Neurosurgery)</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+
+          <!-- <div class="expart-card">
             <div class="expert-image position-relative">
               <img src="image/dr_k_radhakrishnan.jpeg" alt="" class="img-fluid">
             </div>
@@ -637,28 +715,6 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
           </div>
           <div class="expart-card">
             <div class="expert-image position-relative">
-              <img src="image/dr-ashok.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="card-content mt-3">
-              <h3>Dr. Ashok V P</h3>
-              <p>Consultant</p>
-              <h4>MBBS, MD, DM</h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
-            </div>
-          </div>
-          <div class="expart-card">
-            <div class="expert-image position-relative">
-              <img src="image/dr-krishnasree.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="card-content mt-3">
-              <h3>Dr. Krishnasree K S</h3>
-              <p>Associate Consultant</p>
-              <h4>MBBS, DNB in General Medicine, DNB in Neurology</h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
-            </div>
-          </div>
-          <div class="expart-card">
-            <div class="expert-image position-relative">
               <img src="image/dr-jayakrishnan.jpg" alt="" class="img-fluid">
             </div>
             <div class="card-content mt-3">
@@ -667,7 +723,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h4>MBBS, MD, D.M (Neurology), DNB</h4>
               <a href="#" class="btn btn-primary"> Request An Appointment </a>
             </div>
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -854,20 +910,20 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="js/script.js"></script>
-	
-	<script>
-	    function validateCaptcha() {
-        var response = grecaptcha.getResponse(); // Get the user's response from reCAPTCHA
 
-        if (response.length === 0) {
-            // No response from reCAPTCHA
-            alert("Please complete the reCAPTCHA.");
-            return false;
-        } else {
-            return true;
-        }
+  <script>
+    function validateCaptcha() {
+      var response = grecaptcha.getResponse(); // Get the user's response from reCAPTCHA
+
+      if (response.length === 0) {
+        // No response from reCAPTCHA
+        alert("Please complete the reCAPTCHA.");
+        return false;
+      } else {
+        return true;
+      }
     }
-	</script>
+  </script>
 
 </body>
 

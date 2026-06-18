@@ -396,7 +396,7 @@ html body .tabs.tabs-bottom .nav-tabs .nav-link.active{border-bottom-color: #c71
   height: 100%;
   border-radius: 8px;
 }
-.expart-card { position: relative; }
+.expart-card { position: relative; height: 100%; }
 .card-content h3{
   font-size: 18px;
   color: #c71d22;
@@ -409,6 +409,7 @@ html body .tabs.tabs-bottom .nav-tabs .nav-link.active{border-bottom-color: #c71
   font-weight: normal;
   color: #c71d22;
   margin-bottom: 10px;
+  min-height: 52px;
 }
 .card-content p{
   font-size: 17px;

@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 	
-	$recaptchaResponse = $_REQUEST[ 'g-recaptcha-response' ];
+	/*$recaptchaResponse = $_REQUEST[ 'g-recaptcha-response' ];
 
 	$verifyUrl = "https://www.google.com/recaptcha/api/siteverify";
 	$data = [
@@ -50,8 +50,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	{
 		echo "Invalid Captcha";
 		exit;
-	}
+	}*/
 
+	$userAnswer = isset($_POST['captcha']) ? (int)$_POST['captcha'] : 0;
+    $correctAnswer = isset($_SESSION['captcha_answer']) ? (int)$_SESSION['captcha_answer'] : 0;
+
+    if ($userAnswer != $correctAnswer) {
+        echo "❌ Wrong answer. Try again.";
+        exit;
+    }
 	
 	// Create a new PHPMailer instance
     $mail = new PHPMailer(true);
@@ -78,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
 		
 		$recipients = [
-			'appointments.ngl@kimsglobal.com', 'abirami.r@kimsglobal.com', 'relations.ngl@kimsglobal.com'
+			'appointments.ngl@kimsglobal.com', 'abish.s@kimsglobal.com', 'relations.ngl@kimsglobal.com'
         ]; 
 		
         foreach ($recipients as $recipient) {

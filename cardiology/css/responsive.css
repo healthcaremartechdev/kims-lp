@@ -175,6 +175,8 @@
     .nav.nav-tabs{width: 100%;}
     .tabs.tabs-simple .nav-tabs > li .nav-link{font-size: 16px;}
     .speciality-section .card p{font-size: 15px;}
+    .card-content h4, .card-content p{min-height: auto;}
+
   }
 
   @media only screen and (max-width: 767px){
@@ -200,7 +202,7 @@
     .speciality-section .card p{font-size: 15px;}
     .outer-box-speciality{padding: 0 20px;}
     .banner-form{width: 100%;}
-    .expart-slider .owl-item .expert-image img{ height: 290px; object-fit: cover; object-position: top;}
+    .expart-slider .owl-item .expert-image img{ height: auto;}
     .sticky-bar {
         background-color: #c71d22;
         position: fixed;
@@ -213,4 +215,5 @@
         color: #fff;
     }
     .sticky-bar{display: block;}
+    .card-content h4, .card-content p{min-height: auto;}
   }

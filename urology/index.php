@@ -604,27 +604,74 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
         <div class="owl-carousel owl-theme dots-morphing mb-0 expart-slider">
           <div class="expart-card">
             <div class="expert-image position-relative">
-              <img src="image/dr-renu-thomas.png" alt="" class="img-fluid">
+              <img src="image/Dr_Mayank_Bharti.jpg" alt="" class="img-fluid">
             </div>
             <div class="card-content mt-3">
-              <h3>Dr. Renu Thomas</h3>
-              <p>Senior Consultant and Coordinator</p>
-              <h4>MBBS, MS (General Surgery), DNB ( General Surgery), MCh ( Urology)</h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
+              <h3>Dr. Mayank Bharti</h3>
+              <p>Consultant</p>
+              <h4>MBBS, MS (General Surgery), MCh (Genitourinary Surgery)</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/DR_NAZARETH_SOLOMON_T.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Nazareth Solomon T</h3>
+              <p>Consultant</p>
+              <h4>MBBS, MS (General Surgery), MCh (Urology)</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
             </div>
           </div>
           <div class="expart-card">
             <div class="expert-image position-relative">
-              <img src="image/dr-shyam-k-ramesh.png" alt="" class="img-fluid">
+              <img src="image/Dr_Nithya_R.jpg" alt="" class="img-fluid">
             </div>
             <div class="card-content mt-3">
-              <h3>Dr. Syam K Ramesh</h3>
-              <p>Hon. Senior Consultant</p>
-              <h4>MBBS, M S (General Surgery), M.Ch (Urology)</h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
+              <h3>Dr. Nithya R</h3>
+              <p>Consultant</p>
+              <h4>MBBS, MS(General Surgery), MCh (Urology)</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
             </div>
           </div>
           <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Renu_Thomas.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Renu Thomas</h3>
+              <p>Senior Consultant & Coordinator</p>
+              <h4>MBBS, MS (General Surgery), DNB (General Surgery), MCh (Urology)</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Shivakumar_M_Algud.webp" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Shivakumar M Algud</h3>
+              <p>Associate Consultant</p>
+              <h4>MBBS, MS (General Surgery), DrNB Urology</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Syam_K_Ramesh.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Syam K Ramesh</h3>
+              <p>Hon Senior Consultant</p>
+              <h4>MBBS, MS (General Surgery), M.Ch (Urology)</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+
+          <!-- <div class="expart-card">
             <div class="expert-image position-relative">
               <img src="image/dr-sudhin.png" alt="" class="img-fluid">
             </div>
@@ -634,19 +681,8 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h4>MBBS, MS (General Surgery), MCh (Urology)</h4>
               <a href="#" class="btn btn-primary"> Request An Appointment </a>
             </div>
-          </div>
-          <div class="expart-card">
-            <div class="expert-image position-relative">
-              <img src="image/dr_nithya_new.png" alt="" class="img-fluid">
-            </div>
-            <div class="card-content mt-3">
-              <h3>Dr. Nithya R</h3>
-              <p>Consultant</p>
-              <h4>MBBS, MS (ENT), Government Medical College, Vadodara, DNB, National Board of Examination, New Delhi,
-                Post Doctoral Fellowship in Pediatric ENT in CMC Vellore</h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
-            </div>
-          </div>
+          </div> -->
+          
         </div>
       </div>
     </section>

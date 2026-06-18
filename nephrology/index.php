@@ -545,51 +545,64 @@
         </div>
 
         <div class="owl-carousel owl-theme dots-morphing mb-0 expart-slider">
-          <div class="expart-card">
-            <div class="expert-image position-relative">
-              <img src="image/dr-satheesh.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="card-content mt-3">
-              <h3>Dr. Satish Balan</h3>
-              <p>Consultant</p>
-              <h4>DM , DNB </h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
-            </div>
-          </div>
-          <div class="expart-card">
-            <div class="expert-image position-relative">
-              <img src="image/dr-praveen-muraleedharan.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="card-content mt-3">
-              <h3>Dr. Praveen Murlidharan</h3>
-              <p>Medical Superintendent & Senior Consultant </p>
-              <h4>MD, DM, DNB, MBBS</h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
-            </div>
-          </div>
-          <div class="expart-card">
-            <div class="expert-image position-relative">
-              <img src="image/dr_vinayak.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="card-content mt-3">
-              <h3>Dr. Vinayak M</h3>
-              <p>Consultant</p>
-              <h4>ESE Nephrology, MD, DM, DNB, MBBS</h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
-            </div>
-          </div>
 
           <div class="expart-card">
             <div class="expert-image position-relative">
-              <img src="image/dr_prasad_nair.jpg" alt="" class="img-fluid">
+              <img src="image/Dr_Praveen_Murlidharan.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Praveen Murlidharan</h3>
+              <p>Senior Consultant & Medical Superintendent</p>
+              <h4>MBBS, DM, MD, DNB, Clinical Fellowship in Nephrology</h4>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/prasad_nair.jpg" alt="" class="img-fluid">
             </div>
             <div class="card-content mt-3">
               <h3>Dr. Prasad Nair</h3>
               <p>Senior Consultant</p>
-              <h4>MBBS, MD, MRCP, FRCP (London) </h4>
+              <h4>MBBS, MD, MRCP, FRCP (London), FRCP (Ireland)</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Muhammed_S_Khan.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Mohammed S Khan</h3>
+              <p>Associate Consultant</p>
+              <h4>MBBS, MD (General Medicine), DrNB (Nephrology)</h4>
+              <a href="#bannerSection" class="btn btn-primary"> Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Satish_Balan.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Satish Balan</h3>
+              <p>Consultant</p>
+              <h4>DM, DNB</h4>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment </a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Vinayak_M.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Vinayak M</h3>
+              <p>Consultant</p>
+              <h4>MBBS,MD, DM, DNB, DrNB</h4>
               <a href="#" class="btn btn-primary"> Request An Appointment </a>
             </div>
           </div>
+
+          
 
         </div>
       </div>

@@ -574,18 +574,67 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
         </div>
 
         <div class="owl-carousel owl-theme dots-morphing mb-0 expart-slider">
-          <!--<div class="expart-card">
+          <div class="expart-card">
             <div class="expert-image position-relative">
-              <img src="image/dr-vijayaraghavan.jpg" alt="" class="img-fluid">
+              <img src="image/Dr_Atul_Abraham.jpg" alt="" class="img-fluid">
             </div>
             <div class="card-content mt-3">
-              <h3>Prof. Dr. G Vijayaraghavan</h3>
-              <p>Dean-Academics Senior Consultant - Cardiology</p>
-              <h4>FRCP, MD, DM, FACC</h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
+              <h3>Dr. Atul Abraham</h3>
+              <p>Consultant</p>
+              <h4>MBBS, MS, MCh, DrNB CTVS, Post Doctoral Fellowship in Adult Cardiac Surgery</h4>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment </a>
             </div>
-          </div>-->
+          </div>
+          
           <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Shaji_Palangadan.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Shaji Palangadan</h3>
+              <p>Senior Consultant & Co Ordinator</p>
+              <h4>MBBS, MS (General Surgery), DNB, MCh</h4>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment </a>
+            </div>
+          </div>
+          
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Vipin_Balakrishnan_Nair.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Vipin Balakrishnan Nair</h3>
+              <p>Consultant</p>
+              <h4>MBBS, MS (General Surgery), MCh (Cardiothoracic & Vascular Surgery)</h4>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment </a>
+            </div>
+          </div>
+          
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Zaynah_Zainuddin.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Zaynah Zainuddin</h3>
+              <p>Associate Consultant</p>
+              <h4>MBBS, DrNB CTVS</h4>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment </a>
+            </div>
+          </div>
+          
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Soumya_Ramanan.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Sowmya Ramanan V</h3>
+              <p>Senior Consultant - Pediatric Cardiac Surgery</p>
+              <h4>MBBS</h4>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment </a>
+            </div>
+          </div>
+
+          <!-- <div class="expart-card">
             <div class="expert-image position-relative">
               <img src="image/doctor.png" alt="" class="img-fluid">
             </div>
@@ -717,7 +766,8 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h4>MBBS, MD Internal Medicine</h4>
               <a href="#" class="btn btn-primary">Request An Appointment </a>
             </div>
-          </div>
+          </div> -->
+
         </div>
       </div>
     </section>
