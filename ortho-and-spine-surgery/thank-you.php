@@ -1,3 +1,6 @@
+
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,6 +36,18 @@
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPDG225B" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
+
+<script>
+  dataLayer.push({
+    'event':'ortho',
+    'enhanced_conversion_data': {
+      "phone_number": '<?php echo isset($_SESSION['phone']) ? $_SESSION['phone'] : ''; ?>'
+    }
+  })
+</script>
+<?php //unset($_SESSION['phone']); ?>
+
+
     <section class="section">
         <div class="container">
             <div class="site-header text-center">

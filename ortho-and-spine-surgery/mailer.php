@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 	
-	
+	$_SESSION['phone'] = $phone; // Store the phone number in the session for later use
 	
 	
 	/*$recaptchaResponse = $_REQUEST[ 'g-recaptcha-response' ];
