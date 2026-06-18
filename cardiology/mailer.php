@@ -25,6 +25,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "Please complete the form and try again.";
         exit;
     }
+
+    $_SESSION['phone'] = $phone; // Store the phone number in the session for later use
 	
 	
 	
