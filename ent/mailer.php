@@ -66,15 +66,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Specify the SMTP server credentials
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'kimshealthmailer@gmail.com'; // Your Gmail email address
-        $mail->Password = 'xolvoyoaofaqeybd'; // Your Gmail password
+        $mail->Username = 'design.web@kimsglobal.com'; // Your Gmail email address
+        $mail->Password = 'nerturiteotrklgy'; // Your Gmail password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 		$mail->isHTML(true);
 
 
         // Set the email sender and recipients
-        $mail->setFrom('kimshealthmailer@gmail.com', 'KIMSHEALTH');
+        $mail->setFrom('design.web@kimsglobal.com', 'KIMSHEALTH');
     
 		
 		$recipients = [
