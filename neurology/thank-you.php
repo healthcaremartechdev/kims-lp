@@ -35,8 +35,8 @@ $leadEmail = $_SESSION['lead_email'] ?? '';
 $leadPhone = $_SESSION['lead_phone'] ?? '';
 
 // Remove lead data from session after reading
-// unset($_SESSION['lead_email']);
-// unset($_SESSION['lead_phone']);
+unset($_SESSION['lead_email']);
+unset($_SESSION['lead_phone']);
 ?>
 <script>
   window.dataLayer = window.dataLayer || [];
