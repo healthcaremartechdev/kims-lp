@@ -26,7 +26,26 @@
     })(window, document, 'script', 'dataLayer', 'GTM-NPDG225B');
   </script>
   <!-- End Google Tag Manager -->
+<?php
+session_start();
 
+$leadEmail = $_SESSION['lead_email'] ?? '';
+$leadPhone = $_SESSION['lead_phone'] ?? '';
+
+// Remove lead data from session after reading
+unset($_SESSION['lead_email']);
+unset($_SESSION['lead_phone']);
+?>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    'event':'form_submission',
+    'enhanced_conversion_data': {
+      "email": '<?=empty($leadEmail) ? "" : json_encode($leadEmail); ?>',   
+      "phone_number": '<?=empty($leadPhone) ? "" : json_encode($leadPhone); ?>',
+    }
+  })
+</script>
 </head>
 
 <body>

@@ -28,6 +28,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	
 	
 	
+    $_SESSION['lead_email'] = isset($_POST['email']) ? trim($_POST['email']) : '';
+    $_SESSION['lead_phone'] = isset($_POST['phone']) ? trim($_POST['phone']) : '';
+	
 	
 	/*$recaptchaResponse = $_REQUEST[ 'g-recaptcha-response' ];
 
