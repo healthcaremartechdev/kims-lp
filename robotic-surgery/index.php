@@ -160,7 +160,6 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
           </div>
           <div class="col-lg-5">
             <div class="banner-form">
-              <!-- <h6></h6> -->
               <h3 class="fw-bold text-danger fs-6 text-uppercase mb-2">CALL US</h3>
               <div class="d-flex align-items-center justify-content-center gap-2 mb-2">
                 <div class="header_icon">
@@ -803,13 +802,101 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
         <div class="owl-carousel owl-theme dots-morphing mb-0 expart-slider">
           <div class="expart-card">
             <div class="expert-image position-relative">
-              <img src="image/dr-harish-kareem.png" alt="" class="img-fluid">
+              <img src="image/Dr_Renu_Thomas.jpg" alt="" class="img-fluid">
             </div>
             <div class="card-content mt-3">
-              <h3>Dr. Harish Kareem</h3>
+              <h3>Dr. Renu Thomas</h3>
+              <p>Senior Consultant & Coordinator</p>
+              <h4>MBBS, MS, DNB, Mch</h4>
+              <a href="#" class="btn btn-primary">Request An Appointment</a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Mayank_Bharti.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Mayank Bharti</h3>
+              <p>Consultant</p>
+              <h4>MBBS, MS (General Surgery), MCh (Genitourinary Surgery), </h4>
+              <a href="#" class="btn btn-primary">Request An Appointment</a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/DR_NAZARETH_SOLOMON_T.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Maj. Dr. Nazareth Solomon T</h3>
+              <p>Consultant</p>
+              <h4>MBBS, MS (General Surgery), MCh (Urology)</h4>
+              <a href="#" class="btn btn-primary">Request An Appointment</a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Shabeerali_T_U.webp" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Shabeerali T U</h3>
+              <p>Senior Consultant & Chief Coordinator</p>
+              <h4>MBBS, MS, DNB (General Surgery), MCh (Surgical Gastroenterology), DNB (Surgical Gastroenterology)</h4>
+              <a href="#" class="btn btn-primary">Request An Appointment</a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Shiraz_Ahmad_Rather.webp" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Shiraz Ahmad Rather</h3>
+              <p>Consultant & Head of Multivisceral Transplant</p>
+              <h4>MBBS, MS (General Surgery), DrNB (GI Surgery), FRCS</h4>
+              <a href="#" class="btn btn-primary">Request An Appointment</a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Varghese_Yeldho.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Varghese Yeldho</h3>
+              <p>Consultant</p>
+              <h4>MBBS, MS (Gen Surgery), DNB (Gen Surgery), DNB (Surg Gastro)</h4>
+              <a href="#" class="btn btn-primary">Request An Appointment</a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Sajith_Mohan.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Sajith Mohan R</h3>
+              <p>Consultant</p>
+              <h4>MBBS, DNB</h4>
+              <a href="#" class="btn btn-primary">Request An Appointment</a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Vinoo_Balakrishnan.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Vinoo Balakrishnan</h3>
               <p>Senior Consultant</p>
-              <h4>D.M. GASTROENTEROLOGY, M.D. GENERAL MEDICINE, M.B.B.S </h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
+              <h4>MBBS, MD, DGO, MRCOG, MRCPI, FRCOG, MIS</h4>
+              <a href="#" class="btn btn-primary">Request An Appointment</a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Rafeeka_99d78d1ccc.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Rafeekha P</h3>
+              <p>Senior Consultant</p>
+              <h4>MBBS, DGO, DNB, MNAMS</h4>
+              <a href="#" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
@@ -817,32 +904,76 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <img src="image/doctor.png" alt="" class="img-fluid">
             </div>
             <div class="card-content mt-3">
-              <h3>Dr Arun P</h3>
-              <p>Associate Consultant</p>
-              <h4>MBBS, DNB (General Medicine ), MD (General Medicine ), DM (Gastroenterology)</h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
+              <h3>Dr. Geetha P</h3>
+              <p>Senior Consultant</p>
+              <h4>MBBS, MD, MRCOG (UK), FRCOG (UK)</h4>
+              <a href="#" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
             <div class="expert-image position-relative">
-              <img src="image/dr-ajith-k-nayar.png" alt="" class="img-fluid">
+              <img src="image/Dr_Anish_Bava_Salim.jpg" alt="" class="img-fluid">
             </div>
             <div class="card-content mt-3">
-              <h3>Dr. Ajith K Nair</h3>
+              <h3>Dr. Anish Bava Salim</h3>
               <p>Senior Consultant</p>
-              <h4>MBBS, MD in General Medicine, DM in Gastroenterology</h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
+              <h4>MBBS, MS (ORL)</h4>
+              <a href="#" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
             <div class="expert-image position-relative">
-              <img src="image/dr-madhu-sasidharan.png" alt="" class="img-fluid">
+              <img src="image/Dr_Firoz_Khan_M_H.jpg" alt="" class="img-fluid">
             </div>
             <div class="card-content mt-3">
-              <h3>Dr. Madhu Sasidharan</h3>
+              <h3>Dr. Firoz Khan M H</h3>
+              <p>Senior Consultant & Lead</p>
+              <h4>MBBS, DNB (General Surgery), MBA (IDE), FMAS, WALS</h4>
+              <a href="#" class="btn btn-primary">Request An Appointment</a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Shafy_Ali_Khan.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Shafy Ali Khan</h3>
               <p>Senior Consultant</p>
-              <h4>MBBS, MD, DM, ESEGH, Fellowship in Liver Transplant Hepatology</h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
+              <h4>MBBS, DNB, MRCS (UK ), MNAMS, FMAS, FIAGES</h4>
+              <a href="#" class="btn btn-primary">Request An Appointment</a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Renji_Mathew.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Renji Mathew Vaidian</h3>
+              <p>Consultant</p>
+              <h4>MBBS, MS, MMAS (Colorectal), FALS (Robotic), FALS (Hernia), FIAGES, FMAS</h4>
+              <a href="#" class="btn btn-primary">Request An Appointment</a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Vipin_Balakrishnan_Nair.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Vipin Balakrishnan Nair</h3>
+              <p>Consultant</p>
+              <h4>MBBS, MS (General Surgery), MCh (Cardiothoracic & Vascular Surgery)</h4>
+              <a href="#" class="btn btn-primary">Request An Appointment</a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Shaji_Palangadan.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Shaji Palangadan</h3>
+              <p>Senior Consultant & Coordinator</p>
+              <h4>MBBS, MS, DNB, MCh (Cardiothoracic and vascular surgery)</h4>
+              <a href="#" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
         </div>
@@ -850,7 +981,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
     </section>
 
     <!-- testimonials -->
-    <section class="section testimonial-section testimonial-bg" id="testimonial">
+    <section class="section testimonial-section testimonial-bg d-none" id="testimonial">
       <div class="container">
         <div class="sec-title">
           <h2>Testimonials</h2>
@@ -926,7 +1057,6 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
         </div>
       </div>
     </section>
-
 
     <section class="section faq-section" id="faq">
       <div class="container">
@@ -1029,7 +1159,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
     <div class="container pt-3 pb-lg-2 pb-5">
       <div class="row">
         <div class="col-12 text-center">
-          <p>Copyright © 2024. KIMSHOSPITAL. All Rights Reserved</p>
+          <p>Copyright © <span class="currentYear text-white"></span>. KIMSHOSPITAL. All Rights Reserved</p>
         </div>
       </div>
     </div>
@@ -1071,6 +1201,11 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
         return true;
       }
     }
+  </script>
+
+  <script>
+      const getYear = document.querySelector('.currentYear');
+      getYear.innerHTML = new Date().getFullYear();
   </script>
 
 </body>

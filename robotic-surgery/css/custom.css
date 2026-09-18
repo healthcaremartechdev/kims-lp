@@ -507,6 +507,10 @@ html body .tabs.tabs-bottom .nav-tabs .nav-link.active {
 
 .expart-card {
   position: relative;
+  height: 100%;
+}
+.card-content{
+  height: 100%;
 }
 
 .card-content h3 {
@@ -522,6 +526,7 @@ html body .tabs.tabs-bottom .nav-tabs .nav-link.active {
   font-weight: normal;
   color: #c71d22;
   margin-bottom: 10px;
+  min-height: 51px;
 }
 
 .card-content p {

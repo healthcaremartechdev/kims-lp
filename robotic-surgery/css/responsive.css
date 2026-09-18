@@ -175,6 +175,8 @@
     .nav.nav-tabs{width: 100%;}
     .tabs.tabs-simple .nav-tabs > li .nav-link{font-size: 16px;}
     .speciality-section .card p{font-size: 15px;}
+    .card-content h4{min-height: auto;}
+    .card-content p{min-height: auto;}
   }
 
   @media only screen and (max-width: 767px){
@@ -213,4 +215,6 @@
         color: #fff;
     }
     .sticky-bar{display: block;}
+    .card-content h4{min-height: auto;}
+    .card-content p{min-height: auto;}
   }
