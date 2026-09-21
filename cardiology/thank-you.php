@@ -43,7 +43,6 @@
     }
   })
 </script>
-
 <?php //unset($_SESSION['phone']); ?>
     <section class="section">
         <div class="container">
