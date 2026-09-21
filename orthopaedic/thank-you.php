@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,31 +27,24 @@
     })(window, document, 'script', 'dataLayer', 'GTM-NPDG225B');
   </script>
   <!-- End Google Tag Manager -->
-<?php
-session_start();
 
-$leadEmail = $_SESSION['lead_email'] ?? '';
-$leadPhone = $_SESSION['lead_phone'] ?? '';
-
-// Remove lead data from session after reading
-unset($_SESSION['lead_email']);
-unset($_SESSION['lead_phone']);
-?>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({
-    'event':'form_submission',
-    'enhanced_conversion_data': {
-      "email": '<?=empty($leadEmail) ? "" : json_encode($leadEmail); ?>',   
-      "phone_number": '<?=empty($leadPhone) ? "" : json_encode($leadPhone); ?>',
-    }
-  })
-</script>
 </head>
 
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPDG225B" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+<script>
+  dataLayer.push({
+    'event':'cardiology',
+    'enhanced_conversion_data': {
+      "phone_number": '<?php echo isset($_SESSION['phone']) ? $_SESSION['phone'] : ''; ?>'
+    }
+  })
+</script>
+
+<?php //unset($_SESSION['phone']); ?>
+
   <!-- End Google Tag Manager (noscript) -->
     <section class="section">
         <div class="container">
