@@ -338,9 +338,12 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                     <div class="disease-item">
                       <div class="card treatment-card treatment-btn mb-3">
                         <div class="card-body">
-                          <h2> Superior 3D HD visualisation</h2>
+                          <h2>Superior 3D HD visualisation</h2>
                           <div class="span-line"></div>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, qui rerum! Ex ad suscipit illo inventore voluptates vero nihil eaque, possimus mollitia qui rem beatae delectus fugiat modi tempora aspernatur.</p>
+                          <p>Provides surgeons with a magnified, high-definition 3D view of the surgical field. This enhanced visualisation helps identify delicate structures with greater clarity and detail.</p>
+                          <div class="full-details d-none">
+                            <p>Provides surgeons with a magnified, high-definition 3D view of the surgical field. This enhanced visualisation helps identify delicate structures with greater clarity and detail.</p>
+                          </div>
                           <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
                         </div>
                       </div>
@@ -348,7 +351,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="card-body">
                           <h2>Enhanced precision and control</h2>
                           <div class="span-line"></div>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore in excepturi reprehenderit a aut, consequatur et modi. Tempore assumenda recusandae nemo deleniti odio atque dolorum enim quod, voluptatem corporis reprehenderit.</p>
+                          <p>Robotic technology translates the surgeon’s hand movements into highly precise instrument movements. This enables greater control while performing delicate surgical techniques.</p>
+                          <div class="full-details d-none">
+                            <p>Robotic technology translates the surgeon’s hand movements into highly precise instrument movements. This enables greater control while performing delicate surgical techniques.</p>
+                          </div>
                           <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
                         </div>
                       </div>
@@ -359,7 +365,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="card-body">
                           <h2>Greater flexibility during complex procedures</h2>
                           <div class="span-line"></div>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, qui rerum! Ex ad suscipit illo inventore voluptates vero nihil eaque, possimus mollitia qui rem beatae delectus fugiat modi tempora aspernatur.</p>
+                          <p>Robotic instruments offer a wider range of movement than conventional surgical instruments. This allows surgeons to perform intricate movements more effectively during complex procedures.</p>
+                          <div class="full-details d-none">
+                            <p>Robotic instruments offer a wider range of movement than conventional surgical instruments. This allows surgeons to perform intricate movements more effectively during complex procedures.</p>
+                          </div>
                           <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
                         </div>
                       </div>
@@ -367,7 +376,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="card-body">
                           <h2>Improved access to challenging anatomy</h2>
                           <div class="span-line"></div>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore in excepturi reprehenderit a aut, consequatur et modi. Tempore assumenda recusandae nemo deleniti odio atque dolorum enim quod, voluptatem corporis reprehenderit.</p>
+                          <p>Robotic instruments can reach difficult-to-access areas of the body with greater flexibility and precision. This can support surgeons when operating in confined or anatomically complex regions.</p>
+                          <div class="full-details d-none">
+                            <p>Robotic instruments can reach difficult-to-access areas of the body with greater flexibility and precision. This can support surgeons when operating in confined or anatomically complex regions.</p>
+                          </div>
                           <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
                         </div>
                       </div>
@@ -378,7 +390,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="card-body">
                           <h2>Better surgical ergonomics</h2>
                           <div class="span-line"></div>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, qui rerum! Ex ad suscipit illo inventore voluptates vero nihil eaque, possimus mollitia qui rem beatae delectus fugiat modi tempora aspernatur.</p>
+                          <p>The robotic system allows surgeons to operate from a comfortable, seated position with improved control over the instruments. This can help reduce physical strain during lengthy and complex procedures.</p>
+                          <div class="full-details d-none">
+                            <p>The robotic system allows surgeons to operate from a comfortable, seated position with improved control over the instruments. This can help reduce physical strain during lengthy and complex procedures.</p>
+                          </div>
                           <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
                         </div>
                       </div>
@@ -395,7 +410,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="card-body">
                           <h2>Smaller incisions</h2>
                           <div class="span-line"></div>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, provident dolor fugit in distinctio culpa? Enim aspernatur ut quisquam, eligendi dolorum vel rerum distinctio officiis minus blanditiis aliquam sunt doloribus!</p>
+                          <p>Robotic surgery is performed through small incisions using specialised instruments and a camera. Smaller access points can reduce disruption to surrounding tissues compared with traditional open surgery.</p>
+                          <div class="full-details d-none">
+                            <p>Robotic surgery is performed through small incisions using specialised instruments and a camera. Smaller access points can reduce disruption to surrounding tissues compared with traditional open surgery.</p>
+                          </div>
                           <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
                         </div>
                       </div>
@@ -403,7 +421,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="card-body">
                           <h2>Less pain and discomfort</h2>
                           <div class="span-line"></div>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, provident dolor fugit in distinctio culpa? Enim aspernatur ut quisquam, eligendi dolorum vel rerum distinctio officiis minus blanditiis aliquam sunt doloribus!</p>
+                          <p>Smaller incisions and reduced disruption to surrounding tissues may result in less postoperative pain and discomfort. This can help patients recover more comfortably after surgery.</p>
+                          <div class="full-details d-none">
+                            <p>Smaller incisions and reduced disruption to surrounding tissues may result in less postoperative pain and discomfort. This can help patients recover more comfortably after surgery.</p>
+                          </div>
                           <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
                         </div>
                       </div>
@@ -414,7 +435,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="card-body">
                           <h2>Reduced blood loss</h2>
                           <div class="span-line"></div>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, provident dolor fugit in distinctio culpa? Enim aspernatur ut quisquam, eligendi dolorum vel rerum distinctio officiis minus blanditiis aliquam sunt doloribus!</p>
+                          <p>The precise movements and minimally invasive approach can help minimise tissue damage during appropriate procedures. This may result in less blood loss and potentially reduce the need for blood transfusion.</p>
+                          <div class="full-details d-none">
+                            <p>The precise movements and minimally invasive approach can help minimise tissue damage during appropriate procedures. This may result in less blood loss and potentially reduce the need for blood transfusion.</p>
+                          </div>
                           <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
                         </div>
                       </div>
@@ -422,7 +446,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="card-body">
                           <h2>Lower risk of infection</h2>
                           <div class="span-line"></div>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, provident dolor fugit in distinctio culpa? Enim aspernatur ut quisquam, eligendi dolorum vel rerum distinctio officiis minus blanditiis aliquam sunt doloribus!</p>
+                          <p>Smaller surgical incisions and reduced tissue exposure may help lower the risk of certain postoperative infections. However, the risk varies depending on the procedure and the individual patient.</p>
+                          <div class="full-details d-none">
+                            <p>Smaller surgical incisions and reduced tissue exposure may help lower the risk of certain postoperative infections. However, the risk varies depending on the procedure and the individual patient.</p>
+                          </div>
                           <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
                         </div>
                       </div>
@@ -433,7 +460,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="card-body">
                           <h2>Minimal scarring</h2>
                           <div class="span-line"></div>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, provident dolor fugit in distinctio culpa? Enim aspernatur ut quisquam, eligendi dolorum vel rerum distinctio officiis minus blanditiis aliquam sunt doloribus!</p>
+                          <p>Robotic procedures generally use small keyhole incisions rather than a large surgical opening. As a result, patients may experience smaller and less noticeable scars after healing.</p>
+                          <div class="full-details d-none">
+                            <p>Robotic procedures generally use small keyhole incisions rather than a large surgical opening. As a result, patients may experience smaller and less noticeable scars after healing</p>
+                          </div>
                           <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
                         </div>
                       </div>
@@ -441,7 +471,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="card-body">
                           <h2>Shorter hospital stay</h2>
                           <div class="span-line"></div>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, provident dolor fugit in distinctio culpa? Enim aspernatur ut quisquam, eligendi dolorum vel rerum distinctio officiis minus blanditiis aliquam sunt doloribus!</p>
+                          <p>Minimally invasive robotic procedures may allow suitable patients to recover and return home sooner. The length of hospital stay depends on the type of surgery and the patient's individual recovery.</p>
+                          <div class="full-details d-none">
+                            <p>Minimally invasive robotic procedures may allow suitable patients to recover and return home sooner. The length of hospital stay depends on the type of surgery and the patient's individual recovery.</p>
+                          </div>
                           <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
                         </div>
                       </div>
@@ -452,7 +485,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="card-body">
                           <h2>Faster recovery</h2>
                           <div class="span-line"></div>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, provident dolor fugit in distinctio culpa? Enim aspernatur ut quisquam, eligendi dolorum vel rerum distinctio officiis minus blanditiis aliquam sunt doloribus!</p>
+                          <p>The minimally invasive nature of robotic surgery can reduce tissue trauma and support a smoother recovery. Many patients may return to their routine activities sooner, depending on the procedure and individual recovery.</p>
+                          <div class="full-details d-none">
+                            <p>The minimally invasive nature of robotic surgery can reduce tissue trauma and support a smoother recovery. Many patients may return to their routine activities sooner, depending on the procedure and individual recovery.</p>
+                          </div>
                           <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
                         </div>
                       </div>
@@ -476,12 +512,13 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
         <div class="row">
           <div class="col-lg-8">
             <div class="why-choose-leftbox">
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius aut est voluptates exercitationem earum. Quos laboriosam dolores dolorum repellat nisi quidem cupiditate! Doloremque facere dicta explicabo quam ullam odio inventore!</p>
+              <p>Robotic surgery combines advanced technology with a surgeon’s expertise to perform complex procedures with enhanced precision and control. It enables minimally invasive treatment through smaller incisions, helping support a smoother recovery.</p>
               <ul>
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Greater surgical precision and control</li>
+                <li>Smaller incisions and reduced tissue trauma</li>
+                <li>Less pain and blood loss</li>
+                <li>Faster recovery and shorter hospital stay</li>
+                <li>Enhanced 3D visualization for the surgeon</li>
               </ul>
             </div>
           </div>
@@ -509,120 +546,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               </ul>
               <div class="tab-content">
 
-                <div class="tab-pane d-none" id="diseases">
+                <!-- <div class="tab-pane d-none" id="diseases">
                   <div class="owl-carousel owl-theme condition-slider dots-morphing">
-                    <div class="disease-item">
-                      <div class="card treatment-card treatment-btn mb-3">
-                        <div class="card-body">
-                          <h2>Gastroesophageal Reflux Disease (GERD</h2>
-                          <div class="span-line"></div>
-                          <p>Chronic condition where stomach acid flows back into the esophagus, causing heartburn and
-                            potential complications like esophagitis or Barrett's esophagus.</p>
-                          <p class="full-details d-none">Chronic condition where stomach acid flows back into the
-                            esophagus, causing heartburn and potential complications like esophagitis or Barrett's
-                            esophagus.</p>
-                          <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
-                        </div>
-                      </div>
-                      <div class="card treatment-card treatment-btn">
-                        <div class="card-body">
-                          <h2>Peptic Ulcer Disease</h2>
-                          <div class="span-line"></div>
-                          <p>Open sores in the lining of the stomach or duodenum, often caused by H. pylori infection or
-                            NSAID use, leading to abdominal pain or bleeding.</p>
-                          <p class="full-details d-none">Open sores in the lining of the stomach or duodenum, often
-                            caused by H. pylori infection or NSAID use, leading to abdominal pain or bleeding.</p>
-                          <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="disease-item">
-                      <div class="card treatment-card treatment-btn mb-3">
-                        <div class="card-body">
-                          <h2>Inflammatory Bowel Disease (IBD)</h2>
-                          <div class="span-line"></div>
-                          <p>Chronic inflammation of the digestive tract, comprising Crohn's disease and ulcerative
-                            colitis, causing abdominal pain, diarrhea, and potential complications like strictures or
-                            fistulas.</p>
-                          <p class="full-details d-none">Chronic inflammation of the digestive tract, comprising Crohn's
-                            disease and ulcerative colitis, causing abdominal pain, diarrhea, and potential
-                            complications like strictures or fistulas.</p>
-                          <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
-                        </div>
-                      </div>
-                      <div class="card treatment-card treatment-btn">
-                        <div class="card-body">
-                          <h2>Irritable Bowel Syndrome (IBS</h2>
-                          <div class="span-line"></div>
-                          <p>Functional gastrointestinal disorder characterized by abdominal pain, bloating, and changes
-                            in bowel habits, without structural abnormalities, often triggered by stress or diet.</p>
-                          <p class="full-details d-none">Functional gastrointestinal disorder characterized by abdominal
-                            pain, bloating, and changes in bowel habits, without structural abnormalities, often
-                            triggered by stress or diet.</p>
-                          <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="disease-item">
-                      <div class="card treatment-card treatment-btn mb-3">
-                        <div class="card-body">
-                          <h2>Celiac Disease</h2>
-                          <div class="span-line"></div>
-                          <p>Autoimmune disorder triggered by gluten consumption, damaging the small intestine's lining,
-                            leading to malabsorption of nutrients, diarrhea, and other gastrointestinal symptoms..</p>
-                          <p class="full-details d-none">Autoimmune disorder triggered by gluten consumption, damaging
-                            the small intestine's lining, leading to malabsorption of nutrients, diarrhea, and other
-                            gastrointestinal symptoms.</p>
-                          <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
-                        </div>
-                      </div>
-                      <div class="card treatment-card treatment-btn">
-                        <div class="card-body">
-                          <h2>Gastrointestinal Bleeding</h2>
-                          <div class="span-line"></div>
-                          <p>Occurs when there's bleeding in the digestive tract, manifesting as vomiting blood, passing
-                            black stools, or rectal bleeding, requiring urgent medical attention for diagnosis and
-                            treatment.</p>
-                          <p class="full-details d-none">Occurs when there's bleeding in the digestive tract,
-                            manifesting as vomiting blood, passing black stools, or rectal bleeding, requiring urgent
-                            medical attention for diagnosis and treatment.</p>
-                          <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="disease-item">
-                      <div class="card treatment-card treatment-btn mb-3">
-                        <div class="card-body">
-                          <h2>Gallstone Disease</h2>
-                          <div class="span-line"></div>
-                          <p>Formation of hardened deposits in the gallbladder or bile ducts, causing abdominal pain,
-                            nausea, and potential complications like biliary colic or pancreatitis.</p>
-                          <p class="full-details d-none">Formation of hardened deposits in the gallbladder or bile
-                            ducts, causing abdominal pain, nausea, and potential complications like biliary colic or
-                            pancreatitis.</p>
-                          <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
-                        </div>
-                      </div>
-                      <div class="card treatment-card treatment-btn">
-                        <div class="card-body">
-                          <h2>Liver Cirrhosis</h2>
-                          <div class="span-line"></div>
-                          <p>Progressive scarring of the liver due to chronic liver disease, leading to liver
-                            dysfunction, portal hypertension, and complications like ascites or hepatic encephalopathy.
-                          </p>
-                          <p class="full-details d-none">Progressive scarring of the liver due to chronic liver disease,
-                            leading to liver dysfunction, portal hypertension, and complications like ascites or hepatic
-                            encephalopathy.</p>
-                          <a href="javascript:void(0);" class="" onclick="showmodal(this);">Know More</a>
-                        </div>
-                      </div>
-                    </div>
-
                   </div>
-                </div>
+                </div> -->
 
                 <div class="tab-pane active" id="treatment">
                   <div class="owl-carousel owl-theme condition-slider dots-morphing">
@@ -808,7 +735,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h3>Dr. Renu Thomas</h3>
               <p>Senior Consultant & Coordinator</p>
               <h4>MBBS, MS, DNB, Mch</h4>
-              <a href="#" class="btn btn-primary">Request An Appointment</a>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
@@ -819,7 +746,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h3>Dr. Mayank Bharti</h3>
               <p>Consultant</p>
               <h4>MBBS, MS (General Surgery), MCh (Genitourinary Surgery), </h4>
-              <a href="#" class="btn btn-primary">Request An Appointment</a>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
@@ -830,7 +757,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h3>Maj. Dr. Nazareth Solomon T</h3>
               <p>Consultant</p>
               <h4>MBBS, MS (General Surgery), MCh (Urology)</h4>
-              <a href="#" class="btn btn-primary">Request An Appointment</a>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
@@ -841,7 +768,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h3>Dr. Shabeerali T U</h3>
               <p>Senior Consultant & Chief Coordinator</p>
               <h4>MBBS, MS, DNB (General Surgery), MCh (Surgical Gastroenterology), DNB (Surgical Gastroenterology)</h4>
-              <a href="#" class="btn btn-primary">Request An Appointment</a>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
@@ -852,7 +779,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h3>Dr. Shiraz Ahmad Rather</h3>
               <p>Consultant & Head of Multivisceral Transplant</p>
               <h4>MBBS, MS (General Surgery), DrNB (GI Surgery), FRCS</h4>
-              <a href="#" class="btn btn-primary">Request An Appointment</a>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
@@ -863,7 +790,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h3>Dr. Varghese Yeldho</h3>
               <p>Consultant</p>
               <h4>MBBS, MS (Gen Surgery), DNB (Gen Surgery), DNB (Surg Gastro)</h4>
-              <a href="#" class="btn btn-primary">Request An Appointment</a>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
@@ -874,7 +801,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h3>Dr. Sajith Mohan R</h3>
               <p>Consultant</p>
               <h4>MBBS, DNB</h4>
-              <a href="#" class="btn btn-primary">Request An Appointment</a>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
@@ -885,7 +812,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h3>Dr. Vinoo Balakrishnan</h3>
               <p>Senior Consultant</p>
               <h4>MBBS, MD, DGO, MRCOG, MRCPI, FRCOG, MIS</h4>
-              <a href="#" class="btn btn-primary">Request An Appointment</a>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
@@ -896,7 +823,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h3>Dr. Rafeekha P</h3>
               <p>Senior Consultant</p>
               <h4>MBBS, DGO, DNB, MNAMS</h4>
-              <a href="#" class="btn btn-primary">Request An Appointment</a>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
@@ -907,7 +834,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h3>Dr. Geetha P</h3>
               <p>Senior Consultant</p>
               <h4>MBBS, MD, MRCOG (UK), FRCOG (UK)</h4>
-              <a href="#" class="btn btn-primary">Request An Appointment</a>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
@@ -918,7 +845,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h3>Dr. Anish Bava Salim</h3>
               <p>Senior Consultant</p>
               <h4>MBBS, MS (ORL)</h4>
-              <a href="#" class="btn btn-primary">Request An Appointment</a>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
@@ -929,7 +856,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h3>Dr. Firoz Khan M H</h3>
               <p>Senior Consultant & Lead</p>
               <h4>MBBS, DNB (General Surgery), MBA (IDE), FMAS, WALS</h4>
-              <a href="#" class="btn btn-primary">Request An Appointment</a>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
@@ -940,7 +867,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h3>Dr. Shafy Ali Khan</h3>
               <p>Senior Consultant</p>
               <h4>MBBS, DNB, MRCS (UK ), MNAMS, FMAS, FIAGES</h4>
-              <a href="#" class="btn btn-primary">Request An Appointment</a>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
@@ -951,7 +878,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h3>Dr. Renji Mathew Vaidian</h3>
               <p>Consultant</p>
               <h4>MBBS, MS, MMAS (Colorectal), FALS (Robotic), FALS (Hernia), FIAGES, FMAS</h4>
-              <a href="#" class="btn btn-primary">Request An Appointment</a>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
@@ -962,7 +889,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h3>Dr. Vipin Balakrishnan Nair</h3>
               <p>Consultant</p>
               <h4>MBBS, MS (General Surgery), MCh (Cardiothoracic & Vascular Surgery)</h4>
-              <a href="#" class="btn btn-primary">Request An Appointment</a>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
           <div class="expart-card">
@@ -973,7 +900,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h3>Dr. Shaji Palangadan</h3>
               <p>Senior Consultant & Coordinator</p>
               <h4>MBBS, MS, DNB, MCh (Cardiothoracic and vascular surgery)</h4>
-              <a href="#" class="btn btn-primary">Request An Appointment</a>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
         </div>
@@ -1068,13 +995,12 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             <h2 class="accordion-header">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
                 aria-expanded="true" aria-controls="collapse1">
-                <span>What is Gastroenterology?</span>
+                <span>What is robotic surgery?</span>
               </button>
             </h2>
             <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <p>Gastroenterology is the branch of medicine focused on the digestive system's health, including the
-                  esophagus, stomach, intestines, liver, gallbladder, and pancreas..</p>
+                <p>Robotic surgery is a minimally invasive surgical technique where the surgeon uses a robotic-assisted system to control specialised instruments. It provides enhanced precision, flexibility, and high-definition 3D visualisation during surgery.</p>
               </div>
             </div>
           </div>
@@ -1082,13 +1008,12 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                <span>When should I see a gastroenterologist?</span>
+                <span>Is robotic surgery performed by a robot?</span>
               </button>
             </h2>
             <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <p>You should see a gastroenterologist if you experience persistent symptoms like abdominal pain,
-                  bloating, changes in bowel habits, or difficulty swallowing.</p>
+                <p>No. The surgery is performed by a trained surgeon. The robotic system does not make decisions or operate independently; it translates the surgeon’s hand movements into precise movements of the surgical instruments.</p>
               </div>
             </div>
           </div>
@@ -1096,13 +1021,12 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                <span>What conditions do gastroenterologists treat?</span>
+                <span>What are the benefits of robotic surgery?</span>
               </button>
             </h2>
             <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <p>Gastroenterologists treat a wide range of conditions, including acid reflux, inflammatory bowel
-                  disease, liver disease, gallbladder issues, and colorectal cancer.</p>
+                <p>Depending on the procedure, robotic surgery may offer smaller incisions, reduced blood loss, less postoperative pain, improved surgical precision, and potentially faster recovery.</p>
               </div>
             </div>
           </div>
@@ -1110,13 +1034,12 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                <span>What tests and procedures do gastroenterologists perform?</span>
+                <span>Which conditions can be treated with robotic surgery?</span>
               </button>
             </h2>
             <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <p>Gastroenterologists perform tests like endoscopy, colonoscopy, and imaging studies to diagnose and
-                  treat gastrointestinal conditions effectively.</p>
+                <p>Robotic surgery can be used for a range of procedures across specialties such as Urology, Gynecology, Surgical Oncology, General Surgery, Surgical Gastroenterology, Cardiothoracic Surgery, and ENT. Suitability depends on the individual patient and procedure.</p>
               </div>
             </div>
           </div>
@@ -1124,13 +1047,12 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                <span>How can I prepare for a gastroenterology procedure?</span>
+                <span>Is robotic surgery safe?</span>
               </button>
             </h2>
             <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <p>Your gastroenterologist will provide specific instructions for preparation, which may include dietary
-                  restrictions, fasting, and bowel preparation.</p>
+                <p>Robotic surgery is an established surgical approach, but like any surgery, it carries potential risks and complications. Your surgeon will assess your condition, medical history, and the specific procedure to determine whether it is appropriate for you.</p>
               </div>
             </div>
           </div>
@@ -1138,14 +1060,12 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                <span>How can I maintain digestive health?</span>
+                <span>How long does recovery take after robotic surgery?</span>
               </button>
             </h2>
             <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <p>Maintaining digestive health involves eating a balanced diet, staying hydrated, exercising regularly,
-                  avoiding smoking and excessive alcohol consumption, and seeking timely medical care for any digestive
-                  concerns.</p>
+                <p>Recovery varies depending on the type and complexity of surgery, as well as the patient's overall health. Many patients may experience less discomfort and return to normal activities sooner than with some traditional open procedures, but your surgeon will provide a personalised recovery plan.</p>
               </div>
             </div>
           </div>
