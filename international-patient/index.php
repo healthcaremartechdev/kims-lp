@@ -90,7 +90,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                             </a>
                         </div>
                         <div class="cta-button">
-                            <a href="#" class="main-button py-2">Book an Appointment</a>
+                            <a href="#form-cta" class="main-button py-2">Book an Appointment</a>
                         </div>
                     </div>
                 </div>
@@ -120,10 +120,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <nav class="navik-menu menu-caret submenu-top-border submenu-scale">
                             <ul>
                                 <li><a href="#about-us">About Us</a></li>
-                                <li><a href="#our-specialists">Our Specialist</a></li>
-                                <li><a href="#our-services">Our services</a></li>
+                                <li><a href="#specialists">Our Specialist</a></li>
+                                <li><a href="#services">Our services</a></li>
                                 <li><a href="#ipr">IPR</a></li>
-                                <li><a href="#our-expert">Our Expert</a></li>
+                                <li><a href="#expert">Our Expert</a></li>
                                 <li><a href="#testimonials">Testimonial</a></li>
                                 <li><a href="#why-choose-us">Why Choose Us</a></li>
                                 <li><a href="#faq">FAQ</a></li>
@@ -161,7 +161,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             </div>
         </section>
 
-        <section class="py-4 international-care international-care-bg">
+        <section class="py-4 international-care international-care-bg" id="form-cta2">
             <div class="container-fluid">
                 <div class="form-box-wrap">
                     <div class="row">
@@ -257,7 +257,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                 </div>
                             </div>
 
-                            <a href="#" class="main-button mt-3">Talk to a Coordinator</a>
+                            <a href="#form-cta2" class="main-button mt-3">Talk to a Coordinator</a>
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-5">
@@ -349,7 +349,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             </div>
         </section>
 
-        <section class="section exellence-section">
+        <section class="section exellence-section" id="specialists">
             <div class="container">
                 <div class="main-heading sub-heading">
                     <h2 class="mb-3">Centers of Excellence</h2>
@@ -631,7 +631,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             </div>
         </section>
 
-        <section class="section service-section">
+        <section class="section service-section" id="services">
             <div class="container">
                 <div class="main-heading sub-heading">
                     <h2 class="mb-3">Our Services</h2>
@@ -719,64 +719,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             </div>
         </section>
 
-
-        <section class="section consultation-bg d-none">
-            <div class="container">
-                <div class="main-heading sub-heading text-center mb-3">
-                    <h2>Book Your Slot Today</h2>
-                    <h3>No charges. No obligations. Just expert guidance.</h3>
-                </div>
-                <div class="form-box">
-                    <form action="mailer.php" method="post">
-
-                        <div class="row justify-content-center g-2">
-                            <div class="col-md-4">
-                                <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
-                            </div>
-                            <div class="col-md-4">
-                                <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone No" maxlength="10" pattern="[0-9]{10}" title="Please enter a 10-digit phone number" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0,10);" required>
-                            </div>
-                            <div class="col-md-4">
-                                <select class="form-select" name="location" aria-label="Default select example" required>
-                                    <option selected>Select Preferred Centre ( North India , New)</option>
-                                    <option value="Gurugram">Gurugram</option>
-                                    <option value="Lajpat Nagar">Lajpat Nagar</option>
-                                    <option value="Faridabad">Faridabad</option>
-                                </select>
-                            </div>
-                            <div class="col-md-4">
-                                <input type="submit" class="navbar-button rounded-2 w-100" value="Get My Free Second Opinion">
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-                <div class="sub-heading mt-3 text-center">
-                    <p class="fw-semibold fs-6">* Only 8 slots remaining this week</p>
-                </div>
-                <div class="book-consultaion-cta">
-                    <div class="d-lg-flex d-block align-items-center justify-content-between">
-                        <div class="button-cta-box">
-                            <a href="tel:+919289893389" class="book-cta-new">Book Your Consultation Today</a>
-                            <p class="call-now-text">or call us at <a href="tel:+919289893389">+91 92898 93389</a></p>
-                        </div>
-                        <div class="border-middle-custom"></div>
-                        <div class="profile-image-text">
-                            <div class="profile-image">
-                                <img src="img/profile1.png" alt="" class="img-fluid">
-                                <img src="img/profile2.png" alt="" class="img-fluid">
-                                <img src="img/profile3.png" alt="" class="img-fluid">
-                            </div>
-                            <div>
-                                <p>Trusted by 500,000+ Patients & Families</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section second-opinion-section" id="">
+        <section class="section second-opinion-section" id="ipr">
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
@@ -836,7 +779,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 mt-lg-0 mt-5 ps-lg-4 ps-md-4">
+                    <div class="col-md-5 mt-lg-0 mt-5 ps-lg-4 ps-md-4" id="form-cta">
                         <div class="main-heading sub-heading">
                             <h2>Request a Call Back</h2>
                             <p>We are here to help!</p>
@@ -891,7 +834,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             </div>
         </section>
 
-        <section class="section expert-section" id="experts">
+        <section class="section expert-section" id="expert">
             <div class="container">
                 <div class="main-heading sub-heading">
                     <h2 class="mb-3">Meet the Experts</h2>
@@ -908,12 +851,12 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                 <p>Sr Consultant and Coordinator</p>
                                 <h5>Neurosurgery</h5>
                                 <div class="from-btn">
-                                    <a href="#" class="btn">Book an Appointment</a>
+                                    <a href="#form-cta" class="btn">Book an Appointment</a>
                                 </div>
                             </div>
                         </div>
                         <div class="main-btn text-center mt-2">
-                            <a href="#">View Profile</a>
+                            <a href="#form-cta">View Profile</a>
                         </div>
                     </div>
 
@@ -927,12 +870,12 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                 <p>Senior Consultant</p>
                                 <h5>Critical Care</h5>
                                 <div class="from-btn">
-                                    <a href="#" class="btn">Book an Appointment</a>
+                                    <a href="#form-cta" class="btn">Book an Appointment</a>
                                 </div>
                             </div>
                         </div>
                         <div class="main-btn text-center mt-2">
-                            <a href="#">View Profile</a>
+                            <a href="#form-cta">View Profile</a>
                         </div>
                     </div>
 
@@ -946,12 +889,12 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                 <p>Chief Coordinator & Senior</p>
                                 <h5>Hepatobiliary, Pancreatic & Surgen</h5>
                                 <div class="from-btn">
-                                    <a href="#" class="btn">Book an Appointment</a>
+                                    <a href="#form-cta" class="btn">Book an Appointment</a>
                                 </div>
                             </div>
                         </div>
                         <div class="main-btn text-center mt-2">
-                            <a href="#">View Profile</a>
+                            <a href="#form-cta">View Profile</a>
                         </div>
                     </div>
 
@@ -965,12 +908,12 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                 <p>Senior Consultant & Group . . . </p>
                                 <h5>Orthopedics & Trauma </h5>
                                 <div class="from-btn">
-                                    <a href="#" class="btn">Book an Appointment</a>
+                                    <a href="#form-cta" class="btn">Book an Appointment</a>
                                 </div>
                             </div>
                         </div>
                         <div class="main-btn text-center mt-2">
-                            <a href="#">View Profile</a>
+                            <a href="#form-cta">View Profile</a>
                         </div>
                     </div>
 
@@ -984,12 +927,12 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                 <p>Senior Consultant & Group</p>
                                 <h5>Orthopedics & Trauma </h5>
                                 <div class="from-btn">
-                                    <a href="#" class="btn">Book an Appointment</a>
+                                    <a href="#form-cta" class="btn">Book an Appointment</a>
                                 </div>
                             </div>
                         </div>
                         <div class="main-btn text-center mt-2">
-                            <a href="#">View Profile</a>
+                            <a href="#form-cta">View Profile</a>
                         </div>
                     </div>
 
@@ -1003,19 +946,19 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                 <p>Senior Consultant & Group</p>
                                 <h5>Orthopedics & Trauma </h5>
                                 <div class="from-btn">
-                                    <a href="#" class="btn">Book an Appointment</a>
+                                    <a href="#form-cta" class="btn">Book an Appointment</a>
                                 </div>
                             </div>
                         </div>
                         <div class="main-btn text-center mt-2">
-                            <a href="#">View Profile</a>
+                            <a href="#form-cta">View Profile</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section testimonial-section">
+        <section class="section testimonial-section" id="testimonial">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -1056,7 +999,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             </div>
         </section>
 
-        <section class="section why-choose-section position-relative">
+        <section class="section why-choose-section position-relative" id="why-choose-us">
             <div class="container">
                 <div class="row g-lg-5 g-3 mt-1">
                     <div class="col-md-5">
@@ -1100,7 +1043,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="faq">
             <div class="container">
                 <div class="main-heading sub-heading">
                     <h2 class="mb-3">Frequently Asked Question</h2>
@@ -1198,7 +1141,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                             <p>Compassionate care. Expert specialists. Global support.</p>
                         </div>
                         <div class="d-lg-flex d-none align-items-center gap-3">
-                            <a href="#" class="secondary-btn">Request a Consultation <i class="fa-solid fa-angle-right"></i></a>
+                            <a href="#form-cta" class="secondary-btn">Request a Consultation <i class="fa-solid fa-angle-right"></i></a>
                             <a href="#" class="tertiary-btn"><i class="fa-brands fa-whatsapp"></i> Whatsapp Us</a>
                         </div>
                     </div>
