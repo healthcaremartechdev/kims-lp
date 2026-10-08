@@ -119,14 +119,14 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <!--Navigation menu-->
                         <nav class="navik-menu menu-caret submenu-top-border submenu-scale">
                             <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Our Specialist</a></li>
-                                <li><a href="#">Our services</a></li>
-                                <li><a href="#">IPR</a></li>
-                                <li><a href="#">Our Expert</a></li>
-                                <li><a href="#">Testimonial</a></li>
-                                <li><a href="#">Why Choose Us</a></li>
-                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#about-us">About Us</a></li>
+                                <li><a href="#our-specialists">Our Specialist</a></li>
+                                <li><a href="#our-services">Our services</a></li>
+                                <li><a href="#ipr">IPR</a></li>
+                                <li><a href="#our-expert">Our Expert</a></li>
+                                <li><a href="#testimonials">Testimonial</a></li>
+                                <li><a href="#why-choose-us">Why Choose Us</a></li>
+                                <li><a href="#faq">FAQ</a></li>
                                 <!-- <li><a href="#" class="navbar-button mb-lg-0 mb-3">Book An Appointment</a></li> -->
                             </ul>
                         </nav>
