@@ -56,13 +56,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		exit;
 	}*/
 	
-	$userAnswer = isset($_POST['captcha']) ? (int)$_POST['captcha'] : 0;
-    $correctAnswer = isset($_SESSION['captcha_answer']) ? (int)$_SESSION['captcha_answer'] : 0;
+	// $userAnswer = isset($_POST['captcha']) ? (int)$_POST['captcha'] : 0;
+    // $correctAnswer = isset($_SESSION['captcha_answer']) ? (int)$_SESSION['captcha_answer'] : 0;
 
-    if ($userAnswer != $correctAnswer) {
-        echo "❌ Wrong answer. Try again.";
-        exit;
-    }
+    // if ($userAnswer != $correctAnswer) {
+    //     echo "❌ Wrong answer. Try again.";
+    //     exit;
+    // }
 	
 	// Create a new PHPMailer instance
     $mail = new PHPMailer(true);

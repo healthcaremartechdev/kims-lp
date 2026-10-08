@@ -204,10 +204,6 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                         <input type="text" name="message" class="form-control" placeholder="Briefly describe condition">
                                     </div>
                                     
-                  <div class="col-lg-12 input-group mb-3">
-                    <label>Solve: <strong><?php echo $_SESSION['captcha_question']; ?> =</strong> </label>
-                    <input type="text" name="captcha" class="form-control" required>
-                  </div>
                                     <div class="col-md-6 d-lg-none d-md-none">
                                         <div class="form-check form-group">
                                             <input class="form-check-input" type="checkbox" value="" id="flexCheck" required>
