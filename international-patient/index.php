@@ -204,7 +204,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                         <input type="text" name="message" class="form-control" placeholder="Briefly describe condition">
                                     </div>
                                     
-                                    <div class="col-md-6 d-lg-none d-md-none">
+                                    <div class="col-md-6 order-2 order-md-1">
                                         <div class="form-check form-group">
                                             <input class="form-check-input" type="checkbox" value="" id="flexCheck" required>
                                             <label class="form-check-label" for="flexCheck">
@@ -212,16 +212,8 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-md-2 form-group position-relative form-group-btn">
+                                    <div class="col-md-2 form-group position-relative form-group-btn order-1 order-md-2">
                                         <input type="submit" class="main-button text-uppercase w-100" value="Submit">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-check form-group d-md-block d-none">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheck" required>
-                                            <label class="form-check-label" for="flexCheck">
-                                                I agreed to be contacted via Whatsapp/Email/Phone
-                                            </label>
-                                        </div>
                                     </div>
                                 </div>
                             </form>
