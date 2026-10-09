@@ -206,7 +206,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                     
                                     <div class="col-md-6 order-md-2">
                                         <div class="form-check form-group">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheck" required>
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheck" name="agreement" required>
                                             <label class="form-check-label" for="flexCheck">
                                                 I agreed to be contacted via Whatsapp/Email/Phone
                                             </label>
