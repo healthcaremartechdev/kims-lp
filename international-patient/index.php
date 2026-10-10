@@ -190,7 +190,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                     </div>
                                     <div class="col-md-3 form-group form-group-icon position-relative field-icon">
                                         <img src="img/internet.png" alt="" class="img-fluid">
-                                        <select name="" id="" class="form-select form-select-custom" name="country" style="padding-bottom: 8px;">
+                                        <select name="" id="country" class="form-select form-select-custom" name="country" style="padding-bottom: 8px;">
                                             <option value="">Country</option>
                                         </select>
                                     </div>
@@ -1176,6 +1176,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
 
     <script src="js/nav.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/country.js"></script>
     <!-- <script src="js/multislider.min.js"></script> -->
 
     <script>
@@ -1275,6 +1276,29 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                 }
             }
         })
+
+        const countrySelect = document.getElementById('country');
+        const countryData = typeof countries !== 'undefined' ? countries
+            : typeof countryList !== 'undefined' ? countryList
+            : typeof countryDataList !== 'undefined' ? countryDataList
+            : typeof countryData !== 'undefined' ? countryData
+            : typeof country !== 'undefined' ? country
+            : [];
+
+        if (countrySelect && Array.isArray(countryData)) {
+            countryData.forEach((item) => {
+                const name = typeof item === 'string'
+                    ? item
+                    : item.name || item.country || item.country_name || item.label;
+
+                if (!name) return;
+
+                const option = document.createElement('option');
+                option.value = name;
+                option.textContent = name;
+                countrySelect.appendChild(option);
+            });
+        }
     </script>
 
 
