@@ -183,7 +183,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                         <input type="text" name="name" class="form-control" placeholder="Enter your name*" required="">
                                     </div>
                                     <div class="col-md-3 form-group form-group-icon position-relative field-icon">
-                                        <img src="img/telephone.png" alt="" class="img-fluid">
+                                        <!-- <img src="img/telephone.png" alt="" class="img-fluid"> -->
                                         <input type="tel" name="phone" id="phone" inputmode="numeric" maxlength="15" class="form-control" placeholder="Number (with Code)*" required="" value="+91" autocomplete="tel">
                                     </div>
                                     <div class="col-md-3 form-group form-group-icon position-relative field-icon">
