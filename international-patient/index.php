@@ -60,6 +60,8 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.0/jquery.fancybox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@29.5.3/dist/css/intlTelInput.css">
+
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav.css">
@@ -182,7 +184,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                     </div>
                                     <div class="col-md-3 form-group form-group-icon position-relative field-icon">
                                         <img src="img/telephone.png" alt="" class="img-fluid">
-                                        <input type="tel" name="phone" inputmode="numeric" maxlength="15" class="form-control" placeholder="Number (with Code)*" required="" autocomplete="tel">
+                                        <input type="tel" name="phone" id="phone" inputmode="numeric" maxlength="15" class="form-control" placeholder="Number (with Code)*" required="" autocomplete="tel">
                                     </div>
                                     <div class="col-md-3 form-group form-group-icon position-relative field-icon">
                                         <img src="img/envelope.png" alt="" class="img-fluid">
@@ -1300,6 +1302,13 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             });
         }
     </script>
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@29.5.3/dist/js/intlTelInput.min.js"></script>
+<script>
+  const input = document.querySelector("#phone");
+  window.intlTelInput(input, {
+    loadUtils: () => import("https://cdn.jsdelivr.net/npm/intl-tel-input@29.5.3/dist/js/utils.js"),
+  });
+</script>
 
 
 </body>
