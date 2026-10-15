@@ -420,7 +420,8 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="faq-card p-lg-4 p-md-4 p-3">
+
+                        <!-- <div class="faq-card p-lg-4 p-md-4 p-3">
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
@@ -518,11 +519,11 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
 
                     <div class="col-md-6">
-                        <div class="faq-card p-lg-4 p-md-4 p-3">
+                        <!-- <div class="faq-card p-lg-4 p-md-4 p-3">
                             <div class="accordion" id="accordionExample2">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
@@ -619,7 +620,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -637,9 +638,9 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                 <img src="img/conversation.png" class="img-fluid d-block" alt="">
                             </div>
                             <div class="home-service-content text-start">
-                                <h3>Initial Inquiry</h3>
+                                <h3>Dedicated International Patient Coordinator</h3>
                                 <div class="main-list">
-                                    <p>Contact our International Patient Services team via email, phone, or our online inquiry form. Provide details about your medical condition and any existing reports.</p>
+                                    <p>We provide a personal coordinator to assist with appointments, travel planning, visa support, and language interpretation throughout your treatment journey.</p>
                                 </div>
                             </div>
                         </div>
@@ -650,9 +651,9 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                 <img src="img/article.png" class="img-fluid d-block" alt="">
                             </div>
                             <div class="home-service-content text-start">
-                                <h3>Medical Review</h3>
+                                <h3>Medical Opinion & Treatment Planning</h3>
                                 <div class="main-list">
-                                    <p>Our specialists will review your medical records and provide a preliminary opinion and recommended treatment plan.</p>
+                                    <p>Access remote consultations and second opinions from top specialists before you travel. A personalized treatment plan is prepared in advance for your specific medical needs.</p>
                                 </div>
                             </div>
                         </div>
@@ -663,9 +664,9 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                 <img src="img/schedule.png" class="img-fluid d-block" alt="">
                             </div>
                             <div class="home-service-content text-start">
-                                <h3>Appointment Scheduling</h3>
+                                <h3>Comprehensive Arrival & Stay Support</h3>
                                 <div class="main-list">
-                                    <p>Once you approve the treatment plan, we will help schedule consultations, diagnostic tests, and procedures as needed.</p>
+                                    <p>From airport pickup and hotel arrangements to hospital admission and discharge, we ensure a seamless and comfortable experience.</p>
                                 </div>
                             </div>
                         </div>
@@ -676,9 +677,9 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                 <img src="img/conversation.png" class="img-fluid d-block" alt="">
                             </div>
                             <div class="home-service-content text-start">
-                                <h3>Initial Inquiry</h3>
+                                <h3>Multilingual Support Services</h3>
                                 <div class="main-list">
-                                    <p>Contact our International Patient Services team via email, phone, or our online inquiry form. Provide details about your medical condition and any existing reports.</p>
+                                    <p>We offer translation and interpretation in multiple languages to bridge any communication gaps between patients and medical teams.</p>
                                 </div>
                             </div>
                         </div>
@@ -689,9 +690,9 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                 <img src="img/article.png" class="img-fluid d-block" alt="">
                             </div>
                             <div class="home-service-content text-start">
-                                <h3>Medical Review</h3>
+                                <h3>World-Class Facilities & Technology</h3>
                                 <div class="main-list">
-                                    <p>Our specialists will review your medical records and provide a preliminary opinion and recommended treatment plan.</p>
+                                    <p>Receive care in internationally accredited hospitals equipped with advanced technology and expert medical professionals.</p>
                                 </div>
                             </div>
                         </div>
@@ -702,9 +703,9 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                 <img src="img/schedule.png" class="img-fluid d-block" alt="">
                             </div>
                             <div class="home-service-content text-start">
-                                <h3>Appointment Scheduling</h3>
+                                <h3>Post-Treatment Follow-Up</h3>
                                 <div class="main-list">
-                                    <p>Once you approve the treatment plan, we will help schedule consultations, diagnostic tests, and procedures as needed.</p>
+                                    <p>We provide continued care through remote consultations and follow-up plans to ensure your recovery progresses smoothly after returning home.</p>
                                 </div>
                             </div>
                         </div>
@@ -1050,13 +1051,13 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapse70" aria-expanded="true"
                                         aria-controls="collapse70">
-                                        <span>How do I get a medical visa to India?</span>
+                                        <span>How Do I Get A Medical Visa?</span>
                                     </button>
                                 </h2>
                                 <div id="collapse70" class="accordion-collapse collapse show"
                                     data-bs-parent="#accordionExample4">
                                     <div class="accordion-body">
-                                        <p>To get a medical visa to India, apply through the official Indian visa portal with your medical documents and hospital invitation. KIMSHEALTH can assist with documentation and visa-related support.</p>
+                                        <p>Please send us scanned copies of the passports of the patient and his/her attendant so that we can issue the visa invitation letter at the earliest, which will enable you to get a medical visa.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1065,13 +1066,13 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                     <button class="accordion-button collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapse72"
                                         aria-expanded="false" aria-controls="collapse72">
-                                        <span>Is airport pickup really free?</span>
+                                        <span>How Can I Share My Medical Records?</span>
                                     </button>
                                 </h2>
                                 <div id="collapse72" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample4">
                                     <div class="accordion-body">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident facilis nesciunt, consequatur exercitationem enim, autem deserunt, esse nam labore recusandae laborum facere aliquam ipsum architecto non corrupti odio vel blanditiis.</p>
+                                        <p>You may share your recent detailed reports/medical records by emailing the same to ipr.tvm@kimshealth.org</p>
                                     </div>
                                 </div>
                             </div>
@@ -1080,13 +1081,13 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                     <button class="accordion-button collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapse74"
                                         aria-expanded="false" aria-controls="collapse74">
-                                        <span>How quickly can I get a treatment cost estimate?</span>
+                                        <span>What Is The Mode Of Payment?</span>
                                     </button>
                                 </h2>
                                 <div id="collapse74" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample4">
                                     <div class="accordion-body">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolore deleniti nesciunt ab. Eaque debitis dolor voluptatum reprehenderit sapiente temporibus, ducimus hic nesciunt. Sunt repellendus at aperiam esse unde cumque.</p>
+                                        <p>Cash / Card / Wire transfer. We accept foreign currency, online transfers, debit and credit cards.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1095,13 +1096,32 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                     <button class="accordion-button collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapse76"
                                         aria-expanded="false" aria-controls="collapse76">
-                                        <span>Are interpreters available 24x7?</span>
+                                        <span>Do you accept foreign insurance?</span>
                                     </button>
                                 </h2>
                                 <div id="collapse76" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample4">
                                     <div class="accordion-body">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolore deleniti nesciunt ab. Eaque debitis dolor voluptatum reprehenderit sapiente temporibus, ducimus hic nesciunt. Sunt repellendus at aperiam esse unde cumque.</p>
+                                        <p>Here is a list of International TPA/Insurances that we accept:</p>
+                                        <ul>
+                                            <li>AMANA TAKAFUL</li>
+                                            <li>AMITY HEALTH DUBAI</li>
+                                            <li>GEMS TPA</li>
+                                            <li>GULF UNION COOPERATIVE INSURANCE COMP LTD</li>
+                                            <li>HEALTH 360 DEGREE</li>
+                                            <li>MARMASSISTANCE</li>
+                                            <li>MSH International</li>
+                                            <li>NEURON LLC</li>
+                                            <li>TOTAL CARE SAUDI</li>
+                                            <li>AASANDHA</li>
+                                            <li>MEDNET</li>
+                                            <li>ARABIAN SHIELD</li>
+                                            <li>AXA ARABIA</li>
+                                            <li>ANAYIA</li>
+                                            <li>VIPUL BITTER CARE</li>
+                                            <li>TAWANIYA</li>
+                                            <li>Bluedot Medical Assistance</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -1110,13 +1130,28 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                     <button class="accordion-button collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapse78"
                                         aria-expanded="false" aria-controls="collapse78">
-                                        <span>Where will my attendant stay?</span>
+                                        <span>Where can I stay while receiving care at KIMSHEALTH and do you assist with travel?</span>
                                     </button>
                                 </h2>
                                 <div id="collapse78" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample4">
                                     <div class="accordion-body">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolore deleniti nesciunt ab. Eaque debitis dolor voluptatum reprehenderit sapiente temporibus, ducimus hic nesciunt. Sunt repellendus at aperiam esse unde cumque.</p>
+                                        <p>Our team provides assistance with local lodging and transportation arrangements. We can help you in identifying an accommodation (hotel/rented apartment etc.) based on your budget preferences. We have negotiated special rates at select hotels</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapse79"
+                                        aria-expanded="false" aria-controls="collapse79">
+                                        <span>Does KIMSHEALTH offer interpretation services?</span>
+                                    </button>
+                                </h2>
+                                <div id="collapse79" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample4">
+                                    <div class="accordion-body">
+                                        <p>We offer free language assistance to all Limited English Proficient patients through interpreters (in-person, over the phone, or video).</p>
                                     </div>
                                 </div>
                             </div>
