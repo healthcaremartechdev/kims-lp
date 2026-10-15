@@ -1333,6 +1333,28 @@ select.form-select {
 
 /* ================== */
 
+.card-suqre{
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 6px;
+    border: 1px solid #f7f7f7;
+    align-items: center;
+    min-height: 100px;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 3px 2px 1px, rgba(0, 0, 0, 0.23) 2px 2px 2px;
+}
+
+.card-suqre h2{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 25px;
+    color: #b71c2b;
+    text-align: center;
+}
+
 .service-section {
     background-image: url('../img/58624.png');
     background-size: cover;

@@ -419,8 +419,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                     <h2 class="mb-3">Diseases & Key Procedures</h2>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
-
+                    <div class="col-md-3">
+                        <div class="card-suqre">
+                            <h2>Scoliosis</h2>
+                        </div>
                         <!-- <div class="faq-card p-lg-4 p-md-4 p-3">
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
@@ -521,9 +523,24 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                             </div>
                         </div> -->
                     </div>
+                    <div class="col-md-3">
+                        <div class="card-suqre">
+                            <h2>Physical Medical & Rehabilitation</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card-suqre">
+                            <h2>Multi Organ Transplant <br> (Liver, Kidney)</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card-suqre">
+                            <h2>Bone Marrow <br> (Both adults & pediatrics)</h2>
+                        </div>
+                    </div>
 
-                    <div class="col-md-6">
-                        <!-- <div class="faq-card p-lg-4 p-md-4 p-3">
+                    <!-- <div class="col-md-6">
+                        <div class="faq-card p-lg-4 p-md-4 p-3">
                             <div class="accordion" id="accordionExample2">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
@@ -620,8 +637,8 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
-                    </div>
+                        </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -635,10 +652,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                     <div class="col-md-4">
                         <div class="home-service-card h-100">
                             <div class="home-service-card-image text-center">
-                                <img src="img/conversation.png" class="img-fluid d-block" alt="">
+                                <img src="img/coordinator.png" class="img-fluid d-block" alt="">
                             </div>
                             <div class="home-service-content text-start">
-                                <h3>Dedicated International Patient Coordinator</h3>
+                                <h3>Dedicated Patient Coordinator</h3>
                                 <div class="main-list">
                                     <p>We provide a personal coordinator to assist with appointments, travel planning, visa support, and language interpretation throughout your treatment journey.</p>
                                 </div>
@@ -648,10 +665,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                     <div class="col-md-4">
                         <div class="home-service-card h-100">
                             <div class="home-service-card-image text-center">
-                                <img src="img/article.png" class="img-fluid d-block" alt="">
+                                <img src="img/opinion.png" class="img-fluid d-block" alt="">
                             </div>
                             <div class="home-service-content text-start">
-                                <h3>Medical Opinion & Treatment Planning</h3>
+                                <h3>Medical Review & Planning</h3>
                                 <div class="main-list">
                                     <p>Access remote consultations and second opinions from top specialists before you travel. A personalized treatment plan is prepared in advance for your specific medical needs.</p>
                                 </div>
@@ -661,10 +678,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                     <div class="col-md-4">
                         <div class="home-service-card h-100">
                             <div class="home-service-card-image text-center">
-                                <img src="img/schedule.png" class="img-fluid d-block" alt="">
+                                <img src="img/support.png" class="img-fluid d-block" alt="">
                             </div>
                             <div class="home-service-content text-start">
-                                <h3>Comprehensive Arrival & Stay Support</h3>
+                                <h3>Comprehensive Support</h3>
                                 <div class="main-list">
                                     <p>From airport pickup and hotel arrangements to hospital admission and discharge, we ensure a seamless and comfortable experience.</p>
                                 </div>
@@ -674,7 +691,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                     <div class="col-md-4">
                         <div class="home-service-card h-100">
                             <div class="home-service-card-image text-center">
-                                <img src="img/conversation.png" class="img-fluid d-block" alt="">
+                                <img src="img/multilingual.png" class="img-fluid d-block" alt="">
                             </div>
                             <div class="home-service-content text-start">
                                 <h3>Multilingual Support Services</h3>
@@ -687,10 +704,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                     <div class="col-md-4">
                         <div class="home-service-card h-100">
                             <div class="home-service-card-image text-center">
-                                <img src="img/article.png" class="img-fluid d-block" alt="">
+                                <img src="img/facilities.png" class="img-fluid d-block" alt="">
                             </div>
                             <div class="home-service-content text-start">
-                                <h3>World-Class Facilities & Technology</h3>
+                                <h3>World-Class Facilities</h3>
                                 <div class="main-list">
                                     <p>Receive care in internationally accredited hospitals equipped with advanced technology and expert medical professionals.</p>
                                 </div>
@@ -700,7 +717,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                     <div class="col-md-4">
                         <div class="home-service-card h-100">
                             <div class="home-service-card-image text-center">
-                                <img src="img/schedule.png" class="img-fluid d-block" alt="">
+                                <img src="img/Post_Treatment_Follow_Up.png" class="img-fluid d-block" alt="">
                             </div>
                             <div class="home-service-content text-start">
                                 <h3>Post-Treatment Follow-Up</h3>
@@ -968,23 +985,23 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="testimonial-right-part">
                             <div class="owl-carousel owl-theme testi-slider">
                                 <div class="slider-item">
-                                    <a href="#" data-fancybox data-width="800" data-height="400">
-                                        <img src="img/963583.jpg" alt="KIMSHEALTH" class="img-fluid">
+                                    <a href="https://www.youtube.com/shorts/dleFsZmANv8?feature=share" data-fancybox data-width="800" data-height="400">
+                                        <img src="img/8635.jpg" alt="KIMSHEALTH" class="img-fluid">
                                     </a>
                                 </div>
                                 <div class="slider-item">
-                                    <a href="#" data-fancybox data-width="800" data-height="400">
-                                        <img src="img/963583.jpg" alt="KIMSHEALTH" class="img-fluid">
+                                    <a href="https://www.youtube.com/watch?v=bv7JeOKQc30&t=5s" data-fancybox data-width="800" data-height="400">
+                                        <img src="img/3668.jpg" alt="KIMSHEALTH" class="img-fluid">
                                     </a>
                                 </div>
                                 <div class="slider-item">
-                                    <a href="#" data-fancybox data-width="800" data-height="400">
-                                        <img src="img/963583.jpg" alt="KIMSHEALTH" class="img-fluid">
+                                    <a href="https://www.youtube.com/shorts/OIpDdqc-vZs?feature=share" data-fancybox data-width="800" data-height="400">
+                                        <img src="img/8269.jpg" alt="KIMSHEALTH" class="img-fluid">
                                     </a>
                                 </div>
                                 <div class="slider-item">
-                                    <a href="#" data-fancybox data-width="800" data-height="400">
-                                        <img src="img/963583.jpg" alt="KIMSHEALTH" class="img-fluid">
+                                    <a href="https://www.youtube.com/shorts/GCTZrcW_Dyg?feature=share" data-fancybox data-width="800" data-height="400">
+                                        <img src="img/3643.jpg" alt="KIMSHEALTH" class="img-fluid">
                                     </a>
                                 </div>
                             </div>

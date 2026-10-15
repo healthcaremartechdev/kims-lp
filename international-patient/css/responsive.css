@@ -403,5 +403,6 @@
         left: 0;
         z-index: -1;
     }
+    .card-suqre h2{font-size: 18px;}
 
 }
