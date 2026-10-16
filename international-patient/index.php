@@ -860,7 +860,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                             </div>
                             <div class="card-content">
                                 <h4>Dr. Ajith R</h4>
-                                <p>Sr Consultant and Coordinator</p>
+                                <p>Sr Consultant & Coordinator</p>
                                 <h5>Neurosurgery</h5>
                                 <div class="from-btn">
                                     <a href="#form-cta" class="btn">Book an Appointment</a>
@@ -898,7 +898,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                             </div>
                             <div class="card-content">
                                 <h4>Dr. Shabeerali T U</h4>
-                                <p>Chief Coordinator & Senior</p>
+                                <p>Senior Consultant & Chief Coordinator</p>
                                 <h5>Hepatobiliary, Pancreatic & Surgen</h5>
                                 <div class="from-btn">
                                     <a href="#form-cta" class="btn">Book an Appointment</a>
@@ -916,9 +916,9 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                 <img src="img/expert4.png" class="img-fluid w-100" alt="">
                             </div>
                             <div class="card-content">
-                                <h4>Dr. Muhammed Nazeer </h4>
-                                <p>Senior Consultant & Group . . . </p>
-                                <h5>Orthopedics & Trauma </h5>
+                                <h4>Dr. Muhammed Nazeer</h4>
+                                <p>Senior Consultant & Group Coordinator</p>
+                                <h5>Orthopedics & Trauma</h5>
                                 <div class="from-btn">
                                     <a href="#form-cta" class="btn">Book an Appointment</a>
                                 </div>
@@ -929,43 +929,6 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         </div>
                     </div>
 
-                    <div class="expert-card">
-                        <div class="card border-0 rounded-0 p-lg-3 p-0">
-                            <div class="card-image overflow-hidden position-relative">
-                                <img src="img/expert4.png" class="img-fluid w-100" alt="">
-                            </div>
-                            <div class="card-content">
-                                <h4>Dr. Muhammed Nazeer </h4>
-                                <p>Senior Consultant & Group</p>
-                                <h5>Orthopedics & Trauma </h5>
-                                <div class="from-btn">
-                                    <a href="#form-cta" class="btn">Book an Appointment</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-btn text-center mt-2">
-                            <a href="#form-cta">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="expert-card">
-                        <div class="card border-0 rounded-0 p-lg-3 p-0">
-                            <div class="card-image overflow-hidden position-relative">
-                                <img src="img/expert4.png" class="img-fluid w-100" alt="">
-                            </div>
-                            <div class="card-content">
-                                <h4>Dr. Muhammed Nazeer </h4>
-                                <p>Senior Consultant & Group</p>
-                                <h5>Orthopedics & Trauma </h5>
-                                <div class="from-btn">
-                                    <a href="#form-cta" class="btn">Book an Appointment</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-btn text-center mt-2">
-                            <a href="#form-cta">View Profile</a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
