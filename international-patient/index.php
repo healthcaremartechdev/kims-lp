@@ -64,6 +64,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
 
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/responsive.css">
     <!-- <link rel="stylesheet" href="css/multislider.css"> -->
