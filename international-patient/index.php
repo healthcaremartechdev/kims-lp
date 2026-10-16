@@ -413,7 +413,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             </div>
         </section>
 
-        <section class="section pt-lg-0 pt-md-0 d-none">
+        <section class="section pt-lg-0 pt-md-0">
             <div class="container">
                 <div class="main-heading sub-heading">
                     <h2 class="mb-3">Diseases & Key Procedures</h2>
