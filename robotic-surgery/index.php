@@ -319,7 +319,6 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
         <div class="sec-title">
           <h2>Benefits of Robotic Surgery</h2>
         </div>
-
         <div class="row">
           <div class="col-12">
             <div class="tabs tabs-bottom tabs-center tabs-simple">
@@ -729,39 +728,6 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
         <div class="owl-carousel owl-theme dots-morphing mb-0 expart-slider">
           <div class="expart-card">
             <div class="expert-image position-relative">
-              <img src="image/Dr_Renu_Thomas.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="card-content mt-3">
-              <h3>Dr. Renu Thomas</h3>
-              <p>Senior Consultant & Coordinator</p>
-              <h4>MBBS, MS, DNB, Mch</h4>
-              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
-            </div>
-          </div>
-          <div class="expart-card">
-            <div class="expert-image position-relative">
-              <img src="image/Dr_Mayank_Bharti.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="card-content mt-3">
-              <h3>Dr. Mayank Bharti</h3>
-              <p>Consultant</p>
-              <h4>MBBS, MS (General Surgery), MCh (Genitourinary Surgery), </h4>
-              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
-            </div>
-          </div>
-          <div class="expart-card">
-            <div class="expert-image position-relative">
-              <img src="image/DR_NAZARETH_SOLOMON_T.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="card-content mt-3">
-              <h3>Maj. Dr. Nazareth Solomon T</h3>
-              <p>Consultant</p>
-              <h4>MBBS, MS (General Surgery), MCh (Urology)</h4>
-              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
-            </div>
-          </div>
-          <div class="expart-card">
-            <div class="expert-image position-relative">
               <img src="image/Dr_Shabeerali_T_U.webp" alt="" class="img-fluid">
             </div>
             <div class="card-content mt-3">
@@ -779,6 +745,39 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <h3>Dr. Shiraz Ahmad Rather</h3>
               <p>Consultant & Head of Multivisceral Transplant</p>
               <h4>MBBS, MS (General Surgery), DrNB (GI Surgery), FRCS</h4>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Renu_Thomas.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Renu Thomas</h3>
+              <p>Senior Consultant & Coordinator</p>
+              <h4>MBBS, MS, DNB, Mch</h4>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/DR_NAZARETH_SOLOMON_T.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Maj. Dr. Nazareth Solomon T</h3>
+              <p>Consultant</p>
+              <h4>MBBS, MS (General Surgery), MCh (Urology)</h4>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Mayank_Bharti.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Mayank Bharti</h3>
+              <p>Consultant</p>
+              <h4>MBBS, MS (General Surgery), MCh (Genitourinary Surgery), </h4>
               <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>

@@ -1071,29 +1071,29 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="why-point-box">
                             <div class="why-point">1</div>
                             <div class="why-content">
-                                <h3>Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ipsum eveniet quia deserunt non! Error excepturi atque cupiditate saepe, doloribus quaerat magnam nihil ipsum consectetur omnis aut reiciendis hic corporis?</p>
+                                <h3>Comprehensive Medical Expertise</h3>
+                                <p>Access a wide range of medical specialties supported by experienced doctors and multidisciplinary teams, ensuring coordinated care from diagnosis to treatment.</p>
                             </div>
                         </div>
                         <div class="why-point-box">
                             <div class="why-point">2</div>
                             <div class="why-content">
-                                <h3>Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ipsum eveniet quia deserunt non! Error excepturi atque cupiditate saepe, doloribus quaerat magnam nihil ipsum consectetur omnis aut reiciendis hic corporis?</p>
+                                <h3>Advanced Medical Technology</h3>
+                                <p>Benefit from modern medical technology, advanced surgical capabilities, and innovative treatment options tailored to individual patient needs.</p>
                             </div>
                         </div>
                         <div class="why-point-box">
                             <div class="why-point">3</div>
                             <div class="why-content">
-                                <h3>Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ipsum eveniet quia deserunt non! Error excepturi atque cupiditate saepe, doloribus quaerat magnam nihil ipsum consectetur omnis aut reiciendis hic corporis?</p>
+                                <h3>Quality & Patient Safety</h3>
+                                <p>Experience healthcare focused on quality standards, clinical excellence, and patient safety, supported by established accreditation and quality assurance practices.</p>
                             </div>
                         </div>
                         <div class="why-point-box">
                             <div class="why-point">4</div>
                             <div class="why-content">
-                                <h3>Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ipsum eveniet quia deserunt non! Error excepturi atque cupiditate saepe, doloribus quaerat magnam nihil ipsum consectetur omnis aut reiciendis hic corporis?</p>
+                                <h3>Compassionate Patient Care</h3>
+                                <p>Receive personalized attention and dedicated support throughout your healthcare journey, with services designed to make treatment more comfortable and accessible.</p>
                             </div>
                         </div>
                     </div>
