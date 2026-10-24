@@ -7,26 +7,26 @@ $operator = $operators[array_rand($operators)];
 
 // Generate numbers based on operator
 switch ($operator) {
-  case '+':
-    $num1 = rand(1, 20);
-    $num2 = rand(1, 20);
-    $answer = $num1 + $num2;
-    break;
-  case '-':
-    $num1 = rand(10, 30);
-    $num2 = rand(1, $num1); // Ensure non-negative result
-    $answer = $num1 - $num2;
-    break;
-  case '*':
-    $num1 = rand(1, 10);
-    $num2 = rand(1, 10);
-    $answer = $num1 * $num2;
-    break;
-  case '/':
-    $num2 = rand(1, 10);
-    $answer = rand(1, 10);
-    $num1 = $num2 * $answer; // Ensure clean division
-    break;
+    case '+':
+        $num1 = rand(1, 20);
+        $num2 = rand(1, 20);
+        $answer = $num1 + $num2;
+        break;
+    case '-':
+        $num1 = rand(10, 30);
+        $num2 = rand(1, $num1); // Ensure non-negative result
+        $answer = $num1 - $num2;
+        break;
+    case '*':
+        $num1 = rand(1, 10);
+        $num2 = rand(1, 10);
+        $answer = $num1 * $num2;
+        break;
+    case '/':
+        $num2 = rand(1, 10);
+        $answer = rand(1, 10);
+        $num1 = $num2 * $answer; // Ensure clean division
+        break;
 }
 
 // Store the answer in session
@@ -83,12 +83,11 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                 </div>
                 <div class="header-contact d-flex align-items-center justify-content-center">
                     <ul>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Locations</a></li>
+                        <li><a href="tel:+914712941400">Contact Us</a></li>
                     </ul>
                     <div class="d-flex align-items-center gap-3 ms-3">
                         <div class="whatapp-icon">
-                            <a href="#" target="_blank">
+                            <a href="https://wa.me/919072881666" target="_blank">
                                 <img src="img/whatsapp.svg" alt="" class="img-fluid">
                             </a>
                         </div>
@@ -153,8 +152,8 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                             <p>Expert medical care with dedicated support for international patient at KIMSHEALTH</p>
                         </div>
                         <div class="d-flex align-items-center gap-3">
-                            <a href="#" class="secondary-btn">Request a Consultation <i class="fa-solid fa-angle-right"></i></a>
-                            <a href="#" class="tertiary-btn"><i class="fa-brands fa-whatsapp"></i> Whatsapp Us</a>
+                            <a href="#form-cta" class="secondary-btn">Request a Consultation <i class="fa-solid fa-angle-right"></i></a>
+                            <a href="https://wa.me/919072881666" class="tertiary-btn"><i class="fa-brands fa-whatsapp"></i> Whatsapp Us</a>
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -185,7 +184,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                     </div>
                                     <div class="col-md-3 form-group form-group-icon position-relative field-icon">
                                         <!-- <img src="img/telephone.png" alt="" class="img-fluid"> -->
-                                        <input type="tel" name="phone" id="phone" inputmode="numeric" maxlength="15" class="form-control" placeholder="Number (with Code)*" required="" value="+91" autocomplete="tel">
+                                        <input type="tel" name="phone" id="phone" inputmode="numeric" maxlength="15" class="form-control phone" placeholder="Number (with Code)*" required="" value="+91" autocomplete="tel">
                                     </div>
                                     <div class="col-md-3 form-group form-group-icon position-relative field-icon">
                                         <img src="img/envelope.png" alt="" class="img-fluid">
@@ -193,20 +192,61 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                     </div>
                                     <div class="col-md-3 form-group form-group-icon position-relative field-icon">
                                         <img src="img/internet.png" alt="" class="img-fluid">
-                                        <select name="" id="country" class="form-select form-select-custom" name="country" style="padding-bottom: 8px;">
+                                        <select id="" class="form-select form-select-custom country" name="country" style="padding-bottom: 8px;">
                                             <option value="">Country</option>
                                         </select>
                                     </div>
                                     <div class="col-md-5 form-group form-group-icon position-relative field-icon">
                                         <img src="img/badge.png" alt="" class="img-fluid">
-                                        <select name="" id="" class="form-select form-select-custom" name="speciality" style="padding-bottom: 8px;">
-                                            <option value="">Speciality/Treatment</option>
+                                        <select name="speciality" id="" class="form-select form-select-custom" style="padding-bottom: 8px;">
+                                            <option disabled selected>Speciality/Treatment</option>
+                                            <option value="Anaesthesiology">Anaesthesiology</option>
+                                            <option value="Cardiac Sciences">Cardiac Sciences</option>
+                                            <option value="Cardiology">Cardiology</option>
+                                            <option value="Clinical Nutrition">Clinical Nutrition</option>
+                                            <option value="Critical Care">Critical Care</option>
+                                            <option value="Dental">Dental</option>
+                                            <option value="Dermatology">Dermatology</option>
+                                            <option value="Dermatology & Cosmetology">Dermatology &amp; Cosmetology</option>
+                                            <option value="Endocrinology">Endocrinology</option>
+                                            <option value="Ears, Nose & Throat (ENT)">Ears, Nose &amp; Throat (ENT)</option>
+                                            <option value="Emergency Medicine">Emergency Medicine</option>
+                                            <option value="Family Medicine">Family Medicine</option>
+                                            <option value="Gastroenterology">Gastroenterology</option>
+                                            <option value="General Medicine">General Medicine</option>
+                                            <option value="General Surgery">General Surgery</option>
+                                            <option value="Gynaecology & Obstetrics">Gynaecology &amp; Obstetrics</option>
+                                            <option value="Hand & Micro Vascular Surgery">Hand &amp; Micro Vascular Surgery</option>
+                                            <option value="Holistic Child Development Center">Holistic Child Development Center</option>
+                                            <option value="Infectious Diseases">Infectious Diseases</option>
+                                            <option value="Internal Medicine">Internal Medicine</option>
+                                            <option value="Neonatology">Neonatology</option>
+                                            <option value="Nephrology">Nephrology</option>
+                                            <option value="Neurology">Neurology</option>
+                                            <option value="Neurosurgery">Neurosurgery</option>
+                                            <option value="Obstetrics & Gynecology">Obstetrics &amp; Gynecology</option>
+                                            <option value="Oncology">Oncology</option>
+                                            <option value="Ophthalmology">Ophthalmology</option>
+                                            <option value="Orthopedics & Trauma">Orthopedics &amp; Trauma</option>
+                                            <option value="Paediatrics">Paediatrics</option>
+                                            <option value="Paediatric Surgery">Paediatric Surgery</option>
+                                            <option value="Pain Medicine">Pain Medicine</option>
+                                            <option value="Pathology">Pathology</option>
+                                            <option value="Physical Medicine & Rehabilitation">Physical Medicine &amp; Rehabilitation</option>
+                                            <option value="Plastic & Reconstructive Surgery">Plastic &amp; Reconstructive Surgery</option>
+                                            <option value="Psychiatry & Behavioral Medicine">Psychiatry &amp; Behavioral Medicine</option>
+                                            <option value="Pulmonology">Pulmonology</option>
+                                            <option value="Radiology & Laboratory Medicine">Radiology &amp; Laboratory Medicine</option>
+                                            <option value="Rheumatology">Rheumatology</option>
+                                            <option value="Respiratory Medicine">Respiratory Medicine</option>
+                                            <option value="Surgical Gastroenterology">Surgical Gastroenterology</option>
+                                            <option value="Urology">Urology</option>
                                         </select>
                                     </div>
                                     <div class="col-md-5 form-group form-group-noicon position-relative">
                                         <input type="text" name="message" class="form-control" placeholder="Briefly describe condition">
                                     </div>
-                                    
+
                                     <div class="col-md-6 order-md-2">
                                         <div class="form-check form-group">
                                             <input class="form-check-input" type="checkbox" value="" id="flexCheck" name="agreement" required>
@@ -357,9 +397,9 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="card-content">
                             <h4>Cardiology</h4>
                             <p>The KIMSHEALTH Heart Institute brings together a distinguished KIMSHEALTH</p>
-                            <div class="main-btn">
+                            <!-- <div class="main-btn">
                                 <a href="#">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="card border-0 rounded-0">
@@ -369,9 +409,9 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="card-content">
                             <h4>Orthopedics & Trauma</h4>
                             <p>KIMSHEALTH is a specialized center with state-of-the-art facility specialized facility</p>
-                            <div class="main-btn">
+                            <!-- <div class="main-btn">
                                 <a href="#">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="card border-0 rounded-0">
@@ -381,9 +421,9 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="card-content">
                             <h4>Neurology</h4>
                             <p>The KIMSHEALTH Department of Neurology is one of the best Department</p>
-                            <div class="main-btn">
+                            <!-- <div class="main-btn">
                                 <a href="#">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="card border-0 rounded-0">
@@ -393,9 +433,9 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="card-content">
                             <h4>Respiratory Medicine</h4>
                             <p>The KIMSHEALTH Department of Respiratory Medicine is regarded Respiratory</p>
-                            <div class="main-btn">
+                            <!-- <div class="main-btn">
                                 <a href="#">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="card border-0 rounded-0">
@@ -405,9 +445,9 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="card-content">
                             <h4>Respiratory Medicine</h4>
                             <p>The KIMSHEALTH Department of Respiratory Medicine is regarded Respiratory</p>
-                            <div class="main-btn">
+                            <!-- <div class="main-btn">
                                 <a href="#">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -805,8 +845,9 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                         <input type="text" name="name" class="form-control" placeholder="Enter your name*" required="">
                                     </div>
                                     <div class="col-md-6 form-group form-group-icon position-relative field-icon">
-                                        <img src="img/telephone.png" alt="" class="img-fluid">
-                                        <input type="text" name="phone" class="form-control" placeholder="Number (with Code)*" required="">
+                                        <!-- <img src="img/telephone.png" alt="" class="img-fluid"> -->
+                                        <!-- <input type="text" name="phone" class="form-control" id="phone-country" placeholder="Number (with Code)*" required=""> -->
+                                        <input type="tel" name="phone" id="phone-country" inputmode="numeric" maxlength="15" class="form-control phone" placeholder="Number (with Code)*" required="" value="+91" autocomplete="tel">
                                     </div>
                                     <div class="col-md-6 form-group form-group-icon position-relative field-icon">
                                         <img src="img/envelope.png" alt="" class="img-fluid">
@@ -814,14 +855,55 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                     </div>
                                     <div class="col-md-6 form-group form-group-icon position-relative field-icon">
                                         <img src="img/internet.png" alt="" class="img-fluid">
-                                        <select name="country" id="" class="form-select form-select-custom" name="country">
+                                        <select id="" class="form-select form-select-custom country" name="country">
                                             <option value="">Country</option>
                                         </select>
                                     </div>
                                     <div class="col-md-12 form-group form-group-icon position-relative field-icon">
                                         <img src="img/badge.png" alt="" class="img-fluid">
-                                        <select name="speciality" id="" class="form-select form-select-custom" name="speciality">
-                                            <option value="">Speciality/Treatment</option>
+                                        <select name="speciality" id="" class="form-select form-select-custom">
+                                            <option disabled selected>Speciality/Treatment</option>
+                                            <option value="Anaesthesiology">Anaesthesiology</option>
+                                            <option value="Cardiac Sciences">Cardiac Sciences</option>
+                                            <option value="Cardiology">Cardiology</option>
+                                            <option value="Clinical Nutrition">Clinical Nutrition</option>
+                                            <option value="Critical Care">Critical Care</option>
+                                            <option value="Dental">Dental</option>
+                                            <option value="Dermatology">Dermatology</option>
+                                            <option value="Dermatology & Cosmetology">Dermatology &amp; Cosmetology</option>
+                                            <option value="Endocrinology">Endocrinology</option>
+                                            <option value="Ears, Nose & Throat (ENT)">Ears, Nose &amp; Throat (ENT)</option>
+                                            <option value="Emergency Medicine">Emergency Medicine</option>
+                                            <option value="Family Medicine">Family Medicine</option>
+                                            <option value="Gastroenterology">Gastroenterology</option>
+                                            <option value="General Medicine">General Medicine</option>
+                                            <option value="General Surgery">General Surgery</option>
+                                            <option value="Gynaecology & Obstetrics">Gynaecology &amp; Obstetrics</option>
+                                            <option value="Hand & Micro Vascular Surgery">Hand &amp; Micro Vascular Surgery</option>
+                                            <option value="Holistic Child Development Center">Holistic Child Development Center</option>
+                                            <option value="Infectious Diseases">Infectious Diseases</option>
+                                            <option value="Internal Medicine">Internal Medicine</option>
+                                            <option value="Neonatology">Neonatology</option>
+                                            <option value="Nephrology">Nephrology</option>
+                                            <option value="Neurology">Neurology</option>
+                                            <option value="Neurosurgery">Neurosurgery</option>
+                                            <option value="Obstetrics & Gynecology">Obstetrics &amp; Gynecology</option>
+                                            <option value="Oncology">Oncology</option>
+                                            <option value="Ophthalmology">Ophthalmology</option>
+                                            <option value="Orthopedics & Trauma">Orthopedics &amp; Trauma</option>
+                                            <option value="Paediatrics">Paediatrics</option>
+                                            <option value="Paediatric Surgery">Paediatric Surgery</option>
+                                            <option value="Pain Medicine">Pain Medicine</option>
+                                            <option value="Pathology">Pathology</option>
+                                            <option value="Physical Medicine & Rehabilitation">Physical Medicine &amp; Rehabilitation</option>
+                                            <option value="Plastic & Reconstructive Surgery">Plastic &amp; Reconstructive Surgery</option>
+                                            <option value="Psychiatry & Behavioral Medicine">Psychiatry &amp; Behavioral Medicine</option>
+                                            <option value="Pulmonology">Pulmonology</option>
+                                            <option value="Radiology & Laboratory Medicine">Radiology &amp; Laboratory Medicine</option>
+                                            <option value="Rheumatology">Rheumatology</option>
+                                            <option value="Respiratory Medicine">Respiratory Medicine</option>
+                                            <option value="Surgical Gastroenterology">Surgical Gastroenterology</option>
+                                            <option value="Urology">Urology</option>
                                         </select>
                                     </div>
                                     <div class="col-md-12 form-group">
@@ -949,22 +1031,22 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         <div class="testimonial-right-part">
                             <div class="owl-carousel owl-theme testi-slider">
                                 <div class="slider-item">
-                                    <a href="https://www.youtube.com/shorts/dleFsZmANv8?feature=share" data-fancybox data-width="800" data-height="400">
+                                    <a href="https://www.youtube.com/shorts/dleFsZmANv8?feature=share">
                                         <img src="img/8635.jpg" alt="KIMSHEALTH" class="img-fluid">
                                     </a>
                                 </div>
                                 <div class="slider-item">
-                                    <a href="https://www.youtube.com/watch?v=bv7JeOKQc30&t=5s" data-fancybox data-width="800" data-height="400">
+                                    <a href="https://www.youtube.com/watch?v=bv7JeOKQc30&t=5s">
                                         <img src="img/3668.jpg" alt="KIMSHEALTH" class="img-fluid">
                                     </a>
                                 </div>
                                 <div class="slider-item">
-                                    <a href="https://www.youtube.com/shorts/OIpDdqc-vZs?feature=share" data-fancybox data-width="800" data-height="400">
+                                    <a href="https://www.youtube.com/shorts/OIpDdqc-vZs?feature=share">
                                         <img src="img/8269.jpg" alt="KIMSHEALTH" class="img-fluid">
                                     </a>
                                 </div>
                                 <div class="slider-item">
-                                    <a href="https://www.youtube.com/shorts/GCTZrcW_Dyg?feature=share" data-fancybox data-width="800" data-height="400">
+                                    <a href="https://www.youtube.com/shorts/GCTZrcW_Dyg?feature=share">
                                         <img src="img/3643.jpg" alt="KIMSHEALTH" class="img-fluid">
                                     </a>
                                 </div>
@@ -1152,7 +1234,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                         </div>
                         <div class="d-lg-flex d-none align-items-center gap-3">
                             <a href="#form-cta" class="secondary-btn">Request a Consultation <i class="fa-solid fa-angle-right"></i></a>
-                            <a href="#" class="tertiary-btn"><i class="fa-brands fa-whatsapp"></i> Whatsapp Us</a>
+                            <a href="https://wa.me/919072881666" class="tertiary-btn"><i class="fa-brands fa-whatsapp"></i> Whatsapp Us</a>
                         </div>
                     </div>
                 </div>
@@ -1172,8 +1254,8 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
     </div>
 
     <div class="fixed-footer fixed-footer-img">
-        <a href="tel:">
-            <img src="img/call-icon-white.svg" class="img-fluid me-2" alt="">
+        <a href="tel:+914712941400">
+            <img src="img/call-icon-white.svg" class="img-fluid me-2" alt="KIMSHEALTH">
             Request a Consultant
         </a>
     </div>
@@ -1295,36 +1377,63 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             }
         })
 
-        const countrySelect = document.getElementById('country');
-        const countryData = typeof countries !== 'undefined' ? countries
-            : typeof countryList !== 'undefined' ? countryList
-            : typeof countryDataList !== 'undefined' ? countryDataList
-            : typeof countryData !== 'undefined' ? countryData
-            : typeof country !== 'undefined' ? country
-            : [];
+        /*         const countrySelect = document.getElementById('country');
+                const countryData = typeof countries !== 'undefined' ? countries
+                    : typeof countryList !== 'undefined' ? countryList
+                    : typeof countryDataList !== 'undefined' ? countryDataList
+                    : typeof countryData !== 'undefined' ? countryData
+                    : typeof country !== 'undefined' ? country
+                    : [];
 
-        if (countrySelect && Array.isArray(countryData)) {
-            countryData.forEach((item) => {
-                const name = typeof item === 'string'
-                    ? item
-                    : item.name || item.country || item.country_name || item.label;
+                if (countrySelect && Array.isArray(countryData)) {
+                    countryData.forEach((item) => {
+                        const name = typeof item === 'string'
+                            ? item
+                            : item.name || item.country || item.country_name || item.label;
 
-                if (!name) return;
+                        if (!name) return;
 
-                const option = document.createElement('option');
-                option.value = name;
-                option.textContent = name;
-                countrySelect.appendChild(option);
+                        const option = document.createElement('option');
+                        option.value = name;
+                        option.textContent = name;
+                        countrySelect.appendChild(option);
+                    });
+                } */
+
+        const countrySelects = document.querySelectorAll('.country');
+        const countryData = typeof countries !== 'undefined' ? countries :
+            typeof countryList !== 'undefined' ? countryList :
+            typeof countryDataList !== 'undefined' ? countryDataList : [];
+
+        if (countrySelects.length && Array.isArray(countryData)) {
+            countrySelects.forEach((select) => {
+                countryData.forEach((item) => {
+                    const name = typeof item === 'string' ?
+                        item :
+                        item.name || item.country || item.country_name || item.label;
+
+                    if (!name) return;
+
+                    const option = document.createElement('option');
+                    option.value = name;
+                    option.textContent = name;
+
+                    select.appendChild(option);
+                });
             });
         }
     </script>
-<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@29.5.3/dist/js/intlTelInput.min.js"></script>
-<script>
-  const input = document.querySelector("#phone");
-  window.intlTelInput(input, {
-    loadUtils: () => import("https://cdn.jsdelivr.net/npm/intl-tel-input@29.5.3/dist/js/utils.js"),
-  });
-</script>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@29.5.3/dist/js/intlTelInput.min.js"></script>
+    <script>
+        const phoneInputs = document.querySelectorAll('.phone');
+        phoneInputs.forEach((input) => {
+            window.intlTelInput(input, {
+                loadUtils: () => import(
+                    "https://cdn.jsdelivr.net/npm/intl-tel-input@29.5.3/dist/js/utils.js"
+                ),
+            });
+        });
+    </script>
 
 
 </body>
