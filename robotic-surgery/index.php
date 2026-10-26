@@ -728,28 +728,6 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
         <div class="owl-carousel owl-theme dots-morphing mb-0 expart-slider">
           <div class="expart-card">
             <div class="expert-image position-relative">
-              <img src="image/Dr_Shabeerali_T_U.webp" alt="" class="img-fluid">
-            </div>
-            <div class="card-content mt-3">
-              <h3>Dr. Shabeerali T U</h3>
-              <p>Senior Consultant & Chief Coordinator</p>
-              <h4>MBBS, MS, DNB (General Surgery), MCh (Surgical Gastroenterology), DNB (Surgical Gastroenterology)</h4>
-              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
-            </div>
-          </div>
-          <div class="expart-card">
-            <div class="expert-image position-relative">
-              <img src="image/Dr_Shiraz_Ahmad_Rather.webp" alt="" class="img-fluid">
-            </div>
-            <div class="card-content mt-3">
-              <h3>Dr. Shiraz Ahmad Rather</h3>
-              <p>Consultant & Head of Multivisceral Transplant</p>
-              <h4>MBBS, MS (General Surgery), DrNB (GI Surgery), FRCS</h4>
-              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
-            </div>
-          </div>
-          <div class="expart-card">
-            <div class="expert-image position-relative">
               <img src="image/Dr_Renu_Thomas.jpg" alt="" class="img-fluid">
             </div>
             <div class="card-content mt-3">
@@ -770,6 +748,29 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
             </div>
           </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Shabeerali_T_U.webp" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Shabeerali T U</h3>
+              <p>Senior Consultant & Chief Coordinator</p>
+              <h4>MBBS, MS, DNB (General Surgery), MCh (Surgical Gastroenterology), DNB (Surgical Gastroenterology)</h4>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
+            </div>
+          </div>
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Shiraz_Ahmad_Rather.webp" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Shiraz Ahmad Rather</h3>
+              <p>Consultant & Head of Multivisceral Transplant</p>
+              <h4>MBBS, MS (General Surgery), DrNB (GI Surgery), FRCS</h4>
+              <a href="#bannerSection" class="btn btn-primary">Request An Appointment</a>
+            </div>
+          </div>
+          
           <div class="expart-card">
             <div class="expert-image position-relative">
               <img src="image/Dr_Mayank_Bharti.jpg" alt="" class="img-fluid">
