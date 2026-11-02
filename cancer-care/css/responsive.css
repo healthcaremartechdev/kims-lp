@@ -146,7 +146,7 @@
 
     .banner-section {
         height: auto;
-        padding: 75px 0 0px;
+        padding: 65px 0 0px;
     }
 
     .cta-card .cta-card-top h4 {
@@ -169,11 +169,6 @@
     .cta-card .cta-card-top h4::before {
         width: 80%;
         height: 1px;
-    }
-
-    .banner-form .form-control,
-    .banner-form .form-select {
-        padding: 5px 10px;
     }
 
     .navik-menu>ul>li>a.navbar-button,
@@ -392,7 +387,6 @@
         margin-bottom: 0;
     }
     .internation-logo-box{width: 50%; text-align: start; margin-bottom: 12px;}
-    .banner-container{display: none;}
     .generic-content p{font-size: 15px;}
     .home-service-card .home-service-content h3{font-size: 18px;}
     .doctor-mockup{display: none;}
