@@ -168,19 +168,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                     </div>
                                     <div class="col-md-12 form-group form-group-icon position-relative field-icon">
                                         <img src="img/telephone.png" alt="" class="img-fluid">
-                                        <input type="tel" name="phone" id="phone" inputmode="numeric" maxlength="15" class="form-control" placeholder="Number (with Code)*" required autocomplete="tel">
-                                    </div>
-                                    <div class="col-md-12 form-group form-group-icon position-relative field-icon">
-                                        <img src="img/badge.png" alt="" class="img-fluid">
-                                        <select name="" id="" class="form-select form-select-custom" name="speciality" style="padding-bottom: 8px;">
-                                            <option selected disabled>Type of Cancer</option>
-                                            <option value="">Option 1</option>
-                                            <option value="">Option 2</option>
-                                            <option value="">Option 3</option>
-                                        </select>
+                                        <input type="tel" name="phone" inputmode="numeric" maxlength="15" class="form-control" placeholder="Number (with Code)*" required autocomplete="tel">
                                     </div>
                                     <div class="col-md-12 form-group form-group-noicon position-relative">
-                                        <textarea name="message" id="" class="form-control" placeholder="Briefly describe condition"></textarea>
+                                        <textarea name="message" id="" rows="4" class="form-control" placeholder="Briefly describe condition"></textarea>
                                     </div>
 
                                     <div class="col-md-12 form-group position-relative form-group-btn mb-0">
@@ -1158,19 +1149,10 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                                         </div>
                                         <div class="col-md-6 form-group form-group-icon position-relative field-icon">
                                             <img src="img/telephone.png" alt="" class="img-fluid">
-                                            <input type="text" name="phone" class="form-control" placeholder="Number*" required="">
-                                        </div>
-                                        <div class="col-md-12 form-group form-group-icon position-relative field-icon">
-                                            <img src="img/badge.png" alt="" class="img-fluid">
-                                            <select name="speciality" class="form-select form-select-custom" name="speciality">
-                                                <option selected disabled>Type of Cancer</option>
-                                                <option value="">Option 1</option>
-                                                <option value="">Option 2</option>
-                                                <option value="">Option 3</option>
-                                            </select>
+                                            <input type="tel" name="phone" inputmode="numeric" maxlength="15" class="form-control" placeholder="Number (with Code)*" required autocomplete="tel">
                                         </div>
                                         <div class="col-md-12 form-group">
-                                            <textarea class="form-control" name="message" rows="3" placeholder="Briefly describe the condition"></textarea>
+                                            <textarea class="form-control" name="message" rows="4" placeholder="Briefly describe the condition"></textarea>
                                         </div>
                                         <div class="col-md-12">
                                             <input type="submit" class="main-button text-uppercase" value="Submit">
