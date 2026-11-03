@@ -882,17 +882,6 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
         </div>
 
         <div class="owl-carousel owl-theme dots-morphing mb-0 expart-slider">
-          <div class="expart-card">
-            <div class="expert-image position-relative">
-              <img src="image/prabin_sudhakar.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="card-content mt-3">
-              <h3>Dr. Prabin Suthagar Ts</h3>
-              <p>Consultant Orthopaedician</p>
-              <h4>MS Ortho, DNB, Fellowship in Arthro surgery, Knee & Shoulder Surgery</h4>
-              <a href="#" class="btn btn-primary">Request An Appointment </a>
-            </div>
-          </div>
 
           <div class="expart-card">
             <div class="expert-image position-relative">
@@ -905,17 +894,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <a href="#" class="btn btn-primary"> Request An Appointment </a>
             </div>
           </div>
-          <div class="expart-card">
-            <div class="expert-image position-relative">
-              <img src="image/dr_chandan.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="card-content mt-3">
-              <h3>Dr. Chandhan M</h3>
-              <p>Visiting Consultant</p>
-              <h4>MBBS, DNB Orthopaedics, FASSI</h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
-            </div>
-          </div>
+
           <div class="expart-card">
             <div class="expert-image position-relative">
               <img src="image/dr_Dalton_Johnrose.jpg" alt="" class="img-fluid">

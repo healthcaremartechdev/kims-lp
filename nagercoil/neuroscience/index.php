@@ -662,7 +662,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <img src="image/niban_g_m.jpg" alt="" class="img-fluid">
             </div>
             <div class="card-content mt-3">
-              <h3> Dr. G M Niban</h3>
+              <h3>Dr. G M Niban</h3>
               <p>Neuro Surgeon</p>
               <h4>D.Ortho , MS , MCh (Neurosurgery)</h4>
               <a href="#" class="btn btn-primary"> Request An Appointment </a>
@@ -674,21 +674,9 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <img src="image/dr_ganesh_s.jpg" alt="" class="img-fluid">
             </div>
             <div class="card-content mt-3">
-              <h3> Dr. Ganesh S</h3>
+              <h3>Dr. Ganesh S</h3>
               <p>Neurologist </p>
               <h4>MD (Gen Med), DM (Neurology) ,DrNB (Neurology)</h4>
-              <a href="#" class="btn btn-primary"> Request An Appointment </a>
-            </div>
-          </div>
-
-          <div class="expart-card">
-            <div class="expert-image position-relative">
-              <img src="image/dr_babu_r.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="card-content mt-3">
-              <h3> Dr. Babu R</h3>
-              <p>Neuro Surgeon </p>
-              <h4>M.B.B.S, M.Ch Neurosurgery</h4>
               <a href="#" class="btn btn-primary"> Request An Appointment </a>
             </div>
           </div>
