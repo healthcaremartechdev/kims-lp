@@ -140,7 +140,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
 
     <div class="main" role="main">
         <section class="banner-section position-relative" id="bannerform">
-            <img src="img/banner.jpg" alt="" class="img-fluid w-100 d-lg-block d-none">
+            <img src="img/banner-dp.jpg" alt="" class="img-fluid w-100 d-lg-block d-none">
             <img src="img/mobile-banner.jpg" alt="" class="img-fluid w-100 d-lg-none d-block">
             <div class="container banner-container">
                 <div class="row">
