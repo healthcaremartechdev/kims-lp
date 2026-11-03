@@ -733,7 +733,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
                     <div class="expert-card">
                         <div class="card border-0 p-lg-3 p-0 rounded-0">
                             <div class="card-image overflow-hidden position-relative">
-                                <img src="img/doctor_avatar.jpg" class="img-fluid w-100" alt="">
+                                <img src="img/dr_Vishnu_KS.jpg" class="img-fluid w-100" alt="">
                             </div>
                             <div class="card-content">
                                 <h4>Dr. Vishnu KS</h4>
