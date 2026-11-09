@@ -622,6 +622,42 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
               <a href="#bannerSection" class="btn btn-primary smooth-scroll" data-target="bannerSection">Request An Appointment </a>
             </div>
           </div>
+          
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Meenu_G.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Meenu G</h3>
+              <p>Associate Consultant</p>
+              <h4>MBBS, MD, DNB, DrNB (Nephrology)</h4>
+              <a href="#bannerSection" class="btn btn-primary smooth-scroll" data-target="bannerSection">Request An Appointment </a>
+            </div>
+          </div>
+          
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Sukhdev_Singh.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Sukhdev D B Singh</h3>
+              <p>Associate Consultant</p>
+              <h4>MBBS, MS (Gen. Sur.), MCh (Urology)</h4>
+              <a href="#bannerSection" class="btn btn-primary smooth-scroll" data-target="bannerSection">Request An Appointment </a>
+            </div>
+          </div>
+          
+          <div class="expart-card">
+            <div class="expert-image position-relative">
+              <img src="image/Dr_Niranj_K.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-content mt-3">
+              <h3>Dr. Niranj K</h3>
+              <p>Associate Consultant</p>
+              <h4>MBBS, MS (Gen.Sur),  MCh(Uro), DNB(Uro), Fellow in Endourology</h4>
+              <a href="#bannerSection" class="btn btn-primary smooth-scroll" data-target="bannerSection">Request An Appointment </a>
+            </div>
+          </div>
 
         </div>
       </div>
