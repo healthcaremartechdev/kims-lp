@@ -22,22 +22,26 @@ document.addEventListener("click", (e) => {
   }
 }); */
 
-// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-//   anchor.addEventListener('click', function(e) {
-//     e.preventDefault();
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
 
-//     const target = document.querySelector(this.getAttribute('href'));
+    const targetId = this.getAttribute('href');
+    const target = document.querySelector(targetId);
+    if (!target) return;
 
-//     const customOffset = 150; // 🔥 YOU control this value
+    history.pushState(null, '', targetId);
 
-//     const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+    const customOffset = 150; // 🔥 YOU control this value
 
-//     window.scrollTo({
-//       top: targetPosition - customOffset,
-//       behavior: "smooth"
-//     });
-//   });
-// });
+    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+
+    window.scrollTo({
+      top: targetPosition - customOffset,
+      behavior: "smooth"
+    });
+  });
+});
 
 $('.testi-slider').owlCarousel({
   loop: true,
