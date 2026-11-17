@@ -266,7 +266,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             </div>
         </section>
 
-        <section class="section" id="about-us>
+        <section class="section" id="about-us">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-lg-6 col-md-7 mb-lg-0 mb-4">
@@ -1341,12 +1341,12 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
 
 
     <script>
-        // const lenis = new Lenis();
-        // lenis.on('scroll', ScrollTrigger.update);
-        // gsap.ticker.add((time) => {
-        //     lenis.raf(time * 500);
-        // });
-        // gsap.ticker.lagSmoothing(0);
+        const lenis = new Lenis();
+        lenis.on('scroll', ScrollTrigger.update);
+        gsap.ticker.add((time) => {
+            lenis.raf(time * 500);
+        });
+        gsap.ticker.lagSmoothing(0);
 
         /* dynamic date */
         if ($(".currentYear").length > 0) {
