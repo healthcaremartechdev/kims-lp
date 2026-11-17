@@ -1016,7 +1016,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
             </div>
         </section>
 
-        <section class="section testimonial-section" id="testimonial">
+        <section class="section testimonial-section" id="testimonials">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -1341,8 +1341,8 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
 
 
     <script>
-        const lenis = new Lenis();
-        lenis.on('scroll', ScrollTrigger.update);
+        //const lenis = new Lenis();
+        //lenis.on('scroll', ScrollTrigger.update);
         gsap.ticker.add((time) => {
             lenis.raf(time * 500);
         });
