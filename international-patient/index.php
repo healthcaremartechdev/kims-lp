@@ -1275,7 +1275,7 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
     <script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"></script>
 
     <script src="js/nav.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="js/app.js"></script>
     <script src="js/country.js"></script>
     <!-- <script src="js/multislider.min.js"></script> -->
 
