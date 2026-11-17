@@ -22,26 +22,7 @@ document.addEventListener("click", (e) => {
   }
 }); */
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function(e) {
-    e.preventDefault();
 
-    const targetId = this.getAttribute('href');
-    const target = document.querySelector(targetId);
-    if (!target) return;
-
-    history.pushState(null, '', targetId);
-
-    const customOffset = 150; // 🔥 YOU control this value
-
-    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
-
-    window.scrollTo({
-      top: targetPosition - customOffset,
-      behavior: "smooth"
-    });
-  });
-});
 
 $('.testi-slider').owlCarousel({
   loop: true,

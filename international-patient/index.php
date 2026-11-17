@@ -1275,11 +1275,32 @@ $_SESSION['captcha_question'] = "$num1 $operator $num2";
     <script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"></script>
 
     <script src="js/nav.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/country.js"></script>
     <!-- <script src="js/multislider.min.js"></script> -->
 
     <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                const target = document.querySelector(targetId);
+                if (!target) return;
+
+                history.pushState(null, '', targetId);
+
+                const customOffset = 150; // 🔥 YOU control this value
+
+                const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+
+                window.scrollTo({
+                top: targetPosition - customOffset,
+                behavior: "smooth"
+                });
+            });
+            });
+
         document.querySelector("form").addEventListener("submit", function(e) {
 
             const phone = phoneInput.value.trim();
